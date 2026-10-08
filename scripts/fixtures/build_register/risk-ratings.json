@@ -1,0 +1,39 @@
+{
+  "assessor": "fixture for test_build_register.py",
+  "risks": [
+    {
+      "risk_id": "R-01",
+      "title": "Purchases split or pitched just under a quote threshold",
+      "likelihood": {
+        "score": 4,
+        "justification": "{{$.tests.split_purchases.by_tag.general_procurement.items}} general-procurement supplier groups had two or more payments within {{$.tests.split_purchases.parameters.window_days_inclusive}} days that together cross a threshold each payment stays under [metric:$.tests.split_purchases.by_tag.general_procurement.items], and {{$.tests.threshold_clustering.by_tag.general_procurement.items}} general-procurement payments sit just under a threshold [metric:$.tests.threshold_clustering.by_tag.general_procurement.items]. The anti-splitting rule forbids dividing a requirement to avoid the rules [rule:CPR-13]."
+      },
+      "impact": {
+        "score": 3,
+        "column": "compliance",
+        "justification": "Contracts let without the quotes or tender that Appendix B requires would be open to challenge [rule:CPR-50] [rule:CPR-51]; the last Contract Letting audit gave Reasonable Assurance, so controls exist but were not rated substantial [history:AUD-01]."
+      },
+      "evidence": [
+        "Split-purchase groups across all spend: {{$.tests.split_purchases.counts.items}}, combined value {{$.tests.split_purchases.gbp_total}} [metric:$.tests.split_purchases.counts.items]",
+        "Largest group: {{$.tests.split_purchases.top20[0].supplier_names}}, {{$.tests.split_purchases.top20[0].n}} payments totalling {{$.tests.split_purchases.top20[0].sum_gbp}} [metric:$.tests.split_purchases.top20[0].sum_gbp]"
+      ],
+      "proposed_focus": "Test whether the quotes required by Appendix B were obtained for the flagged general-procurement groups [rule:CPR-50]."
+    },
+    {
+      "risk_id": "R-02",
+      "title": "Payments to suppliers after their contract ended",
+      "likelihood": {
+        "score": 5,
+        "justification": "Spend of £12,000 after expiry [metric:$.tests.expired_contracts.counts.items] [rule:CPR-99]",
+        "uplift": {"justification": "Contract Letting audit [history:AUD-01]"}
+      },
+      "impact": {
+        "score": 4,
+        "column": "reputation",
+        "justification": "Could be fraud [history:AUD-99]"
+      },
+      "evidence": ["{{$.tests.expired_contracts.gbp_total}} [metric:$.tests.expired_contracts.gbp_total]"],
+      "proposed_focus": "Review extensions."
+    }
+  ]
+}

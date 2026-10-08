@@ -1,0 +1,23 @@
+# Python environment and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# OS / editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local Claude Code settings (personal permissions; shared settings.json is kept)
+.claude/settings.local.json
+
+# Local environment variables
+.env

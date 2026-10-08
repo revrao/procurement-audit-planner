@@ -1,0 +1,1 @@
+- [Re-run on CHALLENGER DONE](protocol_rerun_on_challenger_done.md) — re-run checks when challenger finishes, or planner and QA deadlock

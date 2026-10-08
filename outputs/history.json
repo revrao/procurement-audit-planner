@@ -1,0 +1,1783 @@
+{
+  "generated_by": "findings-analyst (pdftotext -enc UTF-8, plain and -layout, page by page)",
+  "sources": [
+    {
+      "file": "audit-completed-work-2024-25-annual.pdf",
+      "title": "Internal Audit Plan Update Report (End of March 2025) Appendix A",
+      "pages": 2
+    },
+    {
+      "file": "audit-completed-work-2025-26-q3.pdf",
+      "title": "Internal Audit Plan Update Report (End of December 2025) Appendix A",
+      "pages": 1
+    },
+    {
+      "file": "internal-audit-plan-2025-28.pdf",
+      "title": "Internal Audit Plan 2025-2028",
+      "pages": 7
+    },
+    {
+      "file": "risk-management-strategy-2024-27.pdf",
+      "title": "West Berkshire Council Risk Management Strategy 2024-27",
+      "pages": 35
+    }
+  ],
+  "audits_completed": [
+    {
+      "id": "AUD-01",
+      "source": "audit-completed-work-2024-25-annual.pdf",
+      "pdf_page": 1,
+      "section": "1) COMPLETED AUDITS",
+      "period": "End of March 2025",
+      "directorate": "Resources",
+      "service": "Finance, Property and Procurement",
+      "audit_title": "Contract Letting",
+      "opinion": "Reasonable Assurance",
+      "quote": [
+        "Finance, Property and Procurement",
+        "Contract Letting",
+        "Reasonable Assurance"
+      ],
+      "context_quote": [
+        "Resources",
+        "End of March 2025"
+      ],
+      "table_row": true
+    },
+    {
+      "id": "AUD-02",
+      "source": "audit-completed-work-2024-25-annual.pdf",
+      "pdf_page": 1,
+      "section": "1) COMPLETED AUDITS",
+      "period": "End of March 2025",
+      "directorate": "Resources",
+      "service": "Finance, Property and Procurement",
+      "audit_title": "Housing Benefit and Council Tax Hardship Fund",
+      "opinion": "Reasonable Assurance",
+      "quote": [
+        "Finance, Property and Procurement",
+        "Housing Benefit and Council Tax Hardship Fund",
+        "Reasonable Assurance"
+      ],
+      "context_quote": [
+        "Resources",
+        "End of March 2025"
+      ],
+      "table_row": true
+    },
+    {
+      "id": "AUD-03",
+      "source": "audit-completed-work-2024-25-annual.pdf",
+      "pdf_page": 1,
+      "section": "1) COMPLETED AUDITS",
+      "period": "End of March 2025",
+      "directorate": "Resources",
+      "service": "Finance, Property and Procurement",
+      "audit_title": "Bank Reconciliation",
+      "opinion": "Substantial Assurance",
+      "quote": [
+        "Finance, Property and Procurement",
+        "Bank Reconciliation",
+        "Substantial Assurance"
+      ],
+      "context_quote": [
+        "Resources",
+        "End of March 2025"
+      ],
+      "table_row": true
+    },
+    {
+      "id": "AUD-04",
+      "source": "audit-completed-work-2024-25-annual.pdf",
+      "pdf_page": 1,
+      "section": "1) COMPLETED AUDITS",
+      "period": "End of March 2025",
+      "directorate": "Resources",
+      "service": "Transformation",
+      "audit_title": "Systems Security (Firewall, Antivirus, Traffic Management)",
+      "opinion": "Reasonable Assurance",
+      "quote": [
+        "Transformation",
+        "Systems Security (Firewall, Antivirus, Traffic Management)",
+        "Reasonable Assurance"
+      ],
+      "context_quote": [
+        "Resources",
+        "End of March 2025"
+      ],
+      "table_row": true
+    },
+    {
+      "id": "AUD-05",
+      "source": "audit-completed-work-2024-25-annual.pdf",
+      "pdf_page": 1,
+      "section": "1) COMPLETED AUDITS",
+      "period": "End of March 2025",
+      "directorate": "People",
+      "service": "Public Health",
+      "audit_title": "Joint Agreement Governance",
+      "opinion": "Advisory - no opinion given",
+      "quote": [
+        "Public Health",
+        "Joint Agreement Governance",
+        "Advisory - no opinion given"
+      ],
+      "context_quote": [
+        "People",
+        "End of March 2025"
+      ],
+      "table_row": true
+    },
+    {
+      "id": "AUD-06",
+      "source": "audit-completed-work-2024-25-annual.pdf",
+      "pdf_page": 1,
+      "section": "1) COMPLETED AUDITS",
+      "period": "End of March 2025",
+      "directorate": "Place",
+      "service": "Communities",
+      "audit_title": "Public Protection Partnership – Financial Control Processes",
+      "opinion": "Substantial Assurance",
+      "quote": [
+        "Communities",
+        "Public Protection Partnership – Financial Control Processes",
+        "Substantial Assurance"
+      ],
+      "context_quote": [
+        "Place",
+        "End of March 2025"
+      ],
+      "table_row": true
+    },
+    {
+      "id": "AUD-07",
+      "source": "audit-completed-work-2024-25-annual.pdf",
+      "pdf_page": 1,
+      "section": "1) COMPLETED AUDITS",
+      "period": "End of March 2025",
+      "directorate": "Schools",
+      "service": "Primary",
+      "audit_title": "Springfield",
+      "opinion": "Substantial Assurance",
+      "quote": [
+        "Springfield",
+        "Substantial Assurance"
+      ],
+      "context_quote": [
+        "Schools",
+        "Primary",
+        "End of March 2025"
+      ],
+      "table_row": true
+    },
+    {
+      "id": "AUD-08",
+      "source": "audit-completed-work-2024-25-annual.pdf",
+      "pdf_page": 1,
+      "section": "1) COMPLETED AUDITS",
+      "period": "End of March 2025",
+      "directorate": "Schools",
+      "service": "Primary",
+      "audit_title": "St Paul’s",
+      "opinion": "Reasonable Assurance",
+      "quote": [
+        "St Paul’s",
+        "Reasonable Assurance"
+      ],
+      "context_quote": [
+        "Schools",
+        "Primary",
+        "End of March 2025"
+      ],
+      "table_row": true
+    },
+    {
+      "id": "AUD-09",
+      "source": "audit-completed-work-2024-25-annual.pdf",
+      "pdf_page": 1,
+      "section": "1) COMPLETED AUDITS",
+      "period": "End of March 2025",
+      "directorate": "Schools",
+      "service": "Primary",
+      "audit_title": "St John and St Nicolas Federation",
+      "opinion": "Reasonable Assurance",
+      "quote": [
+        "St John and St Nicolas Federation",
+        "Reasonable Assurance"
+      ],
+      "context_quote": [
+        "Schools",
+        "Primary",
+        "End of March 2025"
+      ],
+      "table_row": true
+    },
+    {
+      "id": "AUD-10",
+      "source": "audit-completed-work-2025-26-q3.pdf",
+      "pdf_page": 1,
+      "section": "1) COMPLETED AUDITS",
+      "period": "End of December 2025",
+      "directorate": "Resources",
+      "service": "Strategy and Governance",
+      "audit_title": "Recruitment (Talent Attraction) and Retention",
+      "opinion": "Reasonable Assurance",
+      "quote": [
+        "Strategy and Governance",
+        "Recruitment (Talent Attraction) and Retention",
+        "Reasonable Assurance"
+      ],
+      "context_quote": [
+        "Resources",
+        "End of December 2025"
+      ],
+      "table_row": true
+    },
+    {
+      "id": "AUD-11",
+      "source": "audit-completed-work-2025-26-q3.pdf",
+      "pdf_page": 1,
+      "section": "1) COMPLETED AUDITS",
+      "period": "End of December 2025",
+      "directorate": "Resources",
+      "service": "Finance, Property and Procurement",
+      "audit_title": "Accounts Payable",
+      "opinion": "Reasonable Assurance",
+      "quote": [
+        "Finance, Property and Procurement",
+        "Accounts Payable",
+        "Reasonable Assurance"
+      ],
+      "context_quote": [
+        "Resources",
+        "End of December 2025"
+      ],
+      "table_row": true
+    },
+    {
+      "id": "AUD-12",
+      "source": "audit-completed-work-2025-26-q3.pdf",
+      "pdf_page": 1,
+      "section": "1) COMPLETED AUDITS",
+      "period": "End of December 2025",
+      "directorate": "People",
+      "service": "Children with Disabilities and SEN Teams",
+      "audit_title": "Personal Budgets (Direct Payments)",
+      "opinion": "Limited Assurance",
+      "quote": [
+        "Children with Disabilities and SEN Teams",
+        "Personal Budgets (Direct Payments)",
+        "Limited Assurance"
+      ],
+      "context_quote": [
+        "People",
+        "End of December 2025"
+      ],
+      "table_row": true
+    },
+    {
+      "id": "AUD-13",
+      "source": "audit-completed-work-2025-26-q3.pdf",
+      "pdf_page": 1,
+      "section": "1) COMPLETED AUDITS",
+      "period": "End of December 2025",
+      "directorate": "People",
+      "service": "Children and Family",
+      "audit_title": "Separated Children (UASC)",
+      "opinion": "Substantial Assurance",
+      "quote": [
+        "Children and Family",
+        "Separated Children (UASC)",
+        "Substantial Assurance"
+      ],
+      "context_quote": [
+        "People",
+        "End of December 2025"
+      ],
+      "table_row": true
+    },
+    {
+      "id": "AUD-14",
+      "source": "audit-completed-work-2025-26-q3.pdf",
+      "pdf_page": 1,
+      "section": "1) COMPLETED AUDITS",
+      "period": "End of December 2025",
+      "directorate": "People",
+      "service": "Adult Social Care",
+      "audit_title": "Purchase of Residential and Nursing Care Provision",
+      "opinion": "Reasonable Assurance",
+      "quote": [
+        "Adult Social Care",
+        "Purchase of Residential and Nursing Care Provision",
+        "Reasonable Assurance"
+      ],
+      "context_quote": [
+        "People",
+        "End of December 2025"
+      ],
+      "table_row": true
+    },
+    {
+      "id": "AUD-15",
+      "source": "audit-completed-work-2025-26-q3.pdf",
+      "pdf_page": 1,
+      "section": "1) COMPLETED AUDITS",
+      "period": "End of December 2025",
+      "directorate": "Schools",
+      "service": "Primary",
+      "audit_title": "Winchcombe",
+      "opinion": "Reasonable Assurance",
+      "quote": [
+        "Winchcombe",
+        "Reasonable Assurance"
+      ],
+      "context_quote": [
+        "Schools",
+        "Primary",
+        "End of December 2025"
+      ],
+      "table_row": true
+    },
+    {
+      "id": "AUD-16",
+      "source": "audit-completed-work-2025-26-q3.pdf",
+      "pdf_page": 1,
+      "section": "1) COMPLETED AUDITS",
+      "period": "End of December 2025",
+      "directorate": "Schools",
+      "service": "Primary",
+      "audit_title": "Curridge",
+      "opinion": "Substantial Assurance",
+      "quote": [
+        "Curridge",
+        "Substantial Assurance"
+      ],
+      "context_quote": [
+        "Schools",
+        "Primary",
+        "End of December 2025"
+      ],
+      "table_row": true
+    }
+  ],
+  "follow_ups": [
+    {
+      "id": "FU-01",
+      "source": "audit-completed-work-2024-25-annual.pdf",
+      "pdf_page": 1,
+      "section": "2) COMPLETED FOLLOW UPS",
+      "period": "End of March 2025",
+      "directorate": "Resources/Finance, Property and Procurement",
+      "audit_title": "Fixed Asset Register",
+      "opinion_report_column": "Overall Opinion - Report",
+      "opinion_report": "Advisory – no opinion",
+      "opinion_implementation_column": "Opinion - Implementation progress",
+      "opinion_implementation": "Satisfactory",
+      "quote": [
+        "Resources/Finance, Property and Procurement",
+        "Fixed Asset Register",
+        "Advisory – no opinion",
+        "Satisfactory"
+      ],
+      "context_quote": [
+        "Overall Opinion",
+        "- Report",
+        "Opinion -",
+        "Implementation",
+        "progress",
+        "End of March 2025"
+      ],
+      "table_row": true
+    },
+    {
+      "id": "FU-02",
+      "source": "audit-completed-work-2024-25-annual.pdf",
+      "pdf_page": 2,
+      "section": "2) COMPLETED FOLLOW UPS (continued)",
+      "period": "End of March 2025",
+      "directorate": "Schools",
+      "service": "Primary",
+      "audit_title": "Garland (now Burghfield Common Federation)",
+      "opinion_report_column": "Overall Opinion - Report",
+      "opinion_report": "Weak",
+      "opinion_implementation_column": "Opinion - Implementation progress",
+      "opinion_implementation": "Unsatisfactory",
+      "quote": [
+        "Garland (now Burghfield Common Federation)",
+        "Weak",
+        "Unsatisfactory"
+      ],
+      "context_quote": [
+        "Schools",
+        "Primary",
+        "Overall Opinion",
+        "- Report",
+        "Opinion -",
+        "Implementation",
+        "progress",
+        "End of March 2025"
+      ],
+      "table_row": true
+    },
+    {
+      "id": "FU-03",
+      "source": "audit-completed-work-2024-25-annual.pdf",
+      "pdf_page": 2,
+      "section": "2) COMPLETED FOLLOW UPS (continued)",
+      "period": "End of March 2025",
+      "directorate": "Schools",
+      "service": "Primary",
+      "audit_title": "Westwood Farm",
+      "opinion_report_column": "Overall Opinion - Report",
+      "opinion_report": "Limited Assurance",
+      "opinion_implementation_column": "Opinion - Implementation progress",
+      "opinion_implementation": "Satisfactory",
+      "quote": [
+        "Westwood Farm",
+        "Limited",
+        "Assurance",
+        "Satisfactory"
+      ],
+      "context_quote": [
+        "Schools",
+        "Primary",
+        "Overall Opinion",
+        "- Report",
+        "Opinion -",
+        "Implementation",
+        "progress",
+        "End of March 2025"
+      ],
+      "table_row": true
+    }
+  ],
+  "advisory_reviews": [
+    {
+      "id": "ADV-01",
+      "source": "audit-completed-work-2024-25-annual.pdf",
+      "pdf_page": 2,
+      "section": "3) COMPLETED ADVISORY REVIEWS/OTHER WORK",
+      "period": "End of March 2025",
+      "directorate": "Transformation, Customer and ICT",
+      "review_title": "Transformation SWOT",
+      "quote": [
+        "Transformation, Customer and ICT",
+        "Transformation SWOT"
+      ],
+      "context_quote": [
+        "End of March 2025"
+      ],
+      "table_row": true
+    }
+  ],
+  "agreed_actions": [],
+  "planned_audits": [],
+  "risk_themes": [],
+  "scoring_method": {
+    "status": "usable",
+    "source": "risk-management-strategy-2024-27.pdf",
+    "evaluation_levels": [
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 13,
+        "section": "4.1 Risk analysis and Risk evaluation",
+        "level": "gross",
+        "name": "Gross level",
+        "definition": "likelihood and impact without additional, specific mitigation action.",
+        "quote": "Gross level – likelihood and impact without additional, specific mitigation action."
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 13,
+        "section": "4.1 Risk analysis and Risk evaluation",
+        "level": "actual (current)",
+        "name": "Actual level",
+        "definition": "this is the current likelihood and impact, based on mitigation action already put in place but excluding further mitigation action planned.",
+        "quote": "Actual level - this is the current likelihood and impact, based on mitigation action already put in place but excluding further mitigation action planned."
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 14,
+        "section": "4.1 Risk analysis and Risk evaluation (bullet continued on p14)",
+        "level": "expected",
+        "name": "Expected level",
+        "definition": "this is a future level of likelihood and impact based on any additional mitigation action (if any) planned to further address the triggers and the consequences of risks. The additional actions and the associated deadlines are listed in the risk register.",
+        "quote": "Expected level – this is a future level of likelihood and impact based on any additional mitigation action (if any) planned to further address the triggers and the consequences of risks. The additional actions and the associated deadlines are listed in the risk register."
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 34,
+        "section": "Appendix 2 - Definitions of key terminology",
+        "level": "gross",
+        "name": "Gross risk rating",
+        "definition": "likelihood and impact without additional, specific mitigation action. Size of the event when a risk materialises and representing the inherent level of risk.",
+        "quote": "Gross risk rating - likelihood and impact without additional, specific mitigation action. Size of the event when a risk materialises and representing the inherent level of risk."
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 34,
+        "section": "Appendix 2 - Definitions of key terminology",
+        "level": "actual (current)",
+        "name": "Current risk rating",
+        "definition": "this is the likelihood and impact at the time of assessment and each re-assessment, based on mitigation action already put in place but excluding further mitigation action planned.",
+        "quote": "Current risk rating - this is the likelihood and impact at the time of assessment and each re-assessment, based on mitigation action already put in place but excluding further mitigation action planned."
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 34,
+        "section": "Appendix 2 - Definitions of key terminology",
+        "level": "expected",
+        "name": "Expected Net risk rating",
+        "definition": "this is a future level of likelihood and impact based on any additional mitigation action (if any) planned to further address the triggers and the consequences of risks",
+        "quote": "Expected Net risk rating - this is a future level of likelihood and impact based on any additional mitigation action (if any) planned to further address the triggers and the consequences of risks"
+      }
+    ],
+    "basis": [
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 14,
+        "section": "4.2",
+        "kind": "scale_statement",
+        "quote": "The Council evaluates its identified risks on a five-point scale on the likelihood or probability of the risk occurring (rated between rare and certain) and the impact caused should the risk occur (rated between negligible and critical)."
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 15,
+        "section": "4.4",
+        "kind": "likelihood_basis",
+        "quote": "However, as an indicator, the likelihood is defined by the following probability of a risk occurring:"
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 18,
+        "section": "5.11",
+        "kind": "banding_statement",
+        "quote": "The Council has chosen to divide the rating into bands as shown on the risk matrix below, defining the criteria used to manage the risk exposure and reflecting the risk appetite levels described above."
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 24,
+        "section": "7.1",
+        "kind": "scoring_basis",
+        "quote": "The risk score is, therefore, based on a ‘reasonable worst case scenario’. The methodology for the scoring of risks is included in section 5 above."
+      }
+    ],
+    "likelihood_scale": [
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 15,
+        "section": "Table 2. Likelihood Ratings",
+        "score": 5,
+        "label": "Certain",
+        "incidents": "Risk will occur within a 12 month period",
+        "probability": "100%",
+        "table_row": true,
+        "quote": [
+          "5",
+          "Certain",
+          "Risk will occur within a 12 month period",
+          "100%"
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 15,
+        "section": "Table 2. Likelihood Ratings",
+        "score": 4,
+        "label": "Almost Certain",
+        "incidents": "Risk is almost certain to occur within a 12 month period",
+        "probability": "70% - 99%",
+        "table_row": true,
+        "quote": [
+          "4",
+          "Almost",
+          "Certain",
+          "Risk is almost certain to occur within a 12 month",
+          "period",
+          "70% - 99%"
+        ],
+        "row_window": 4
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 15,
+        "section": "Table 2. Likelihood Ratings",
+        "score": 3,
+        "label": "Likely",
+        "incidents": "Risk is likely to occur within a 12 month period",
+        "probability": "30% - 69%",
+        "table_row": true,
+        "quote": [
+          "3",
+          "Likely",
+          "Risk is likely to occur within a 12 month period",
+          "30% - 69%"
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 15,
+        "section": "Table 2. Likelihood Ratings",
+        "score": 2,
+        "label": "Unlikely",
+        "incidents": "Risk is unlikely to occur within a 12 month period",
+        "probability": "2% - 29%",
+        "table_row": true,
+        "quote": [
+          "2",
+          "Unlikely",
+          "Risk is unlikely to occur within a 12 month period",
+          "2% - 29%"
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 15,
+        "section": "Table 2. Likelihood Ratings",
+        "score": 1,
+        "label": "Rare",
+        "incidents": "Risk is very rare and highly unlikely to occur within a 12 month period",
+        "probability": "–<2%",
+        "table_row": true,
+        "quote": [
+          "1",
+          "Rare",
+          "Risk is very rare and highly unlikely to occur",
+          "within a 12 month period",
+          "–<2%"
+        ]
+      }
+    ],
+    "impact_columns": {
+      "source": "risk-management-strategy-2024-27.pdf",
+      "pdf_page": 14,
+      "section": "Table 1. Impact Ratings",
+      "columns": {
+        "financial": "Financial loss to Council",
+        "personal": "Personal / Staff or Customers",
+        "assets": "Assets / Physical / Information",
+        "reputation": "Reputation",
+        "compliance": "Compliance (litigation, regulatory, contract)"
+      },
+      "table_row": true,
+      "quote": [
+        "Impact",
+        "Rating",
+        "Financial",
+        "loss to",
+        "Council",
+        "Personal /",
+        "Staff or",
+        "Customers",
+        "Assets /",
+        "Physical /",
+        "Information",
+        "Reputation",
+        "Compliance",
+        "(litigation,",
+        "regulatory,",
+        "contract)"
+      ]
+    },
+    "impact_scale": [
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 14,
+        "section": "Table 1. Impact Ratings",
+        "score": 5,
+        "label": "Critical",
+        "financial": "> 1% annual WBC budget >£2m",
+        "personal": "Death",
+        "assets": "Destruction of building, IT infrastructure",
+        "reputation": "Front page of national press",
+        "compliance": "Probable legal challenge with penalties. Probable regulatory intervention.",
+        "table_row": true,
+        "row_window": 6,
+        "quote": [
+          "5",
+          "Critical",
+          "> 1% annual",
+          "WBC budget",
+          ">£2m",
+          "Death",
+          "Destruction of building, IT infrastructure",
+          "Front page of national press",
+          "Probable legal challenge with penalties. Probable regulatory intervention."
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 14,
+        "section": "Table 1. Impact Ratings",
+        "score": 4,
+        "label": "Major",
+        "financial": "0.25% - 1% annual WBC budget £500k £2M",
+        "personal": "Permanent disability",
+        "assets": "Majority loss of main building / Loss of main ICT system – e.g. Email / Payroll / network",
+        "reputation": "Adverse publicity nationally HSE / Fire Authority prosecution",
+        "compliance": "High possibility of legal challenge. High possibility of regulatory intervention.",
+        "table_row": true,
+        "row_window": 8,
+        "quote": [
+          "4",
+          "Major",
+          "0.25% - 1%",
+          "annual WBC",
+          "budget",
+          "£500k £2M",
+          "Permanent disability",
+          "Majority loss of main building / Loss of main ICT system – e.g. Email / Payroll / network",
+          "Adverse publicity nationally HSE / Fire Authority prosecution",
+          "High possibility of legal challenge. High possibility of regulatory intervention."
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 14,
+        "section": "Table 1. Impact Ratings",
+        "score": 3,
+        "label": "Medium",
+        "financial": "0.1% - 0.3% annual WBC budget £175k -500k",
+        "personal": "Major injury / hospitalisation",
+        "assets": "Partial loss off main building or total loss of minor building. Temporary loss of major ICT system – up to one week, total loss of minor ICT system",
+        "reputation": "External agency criticism – EG Auditor, Ofsted etc. HSE / Fire Authority enforcement action",
+        "compliance": "Reasonable possibility of successful legal challenge. Reasonable possibility of regulatory interest.",
+        "table_row": true,
+        "row_window": 4,
+        "quote": [
+          "3",
+          "Medium",
+          "0.1% - 0.3%",
+          "annual WBC",
+          "budget",
+          "£175k -500k",
+          "Major injury / hospitalisation",
+          "Partial loss off main building or total loss of minor building. Temporary loss of major ICT system – up to one week, total loss of minor ICT system",
+          "External agency criticism – EG Auditor, Ofsted etc. HSE / Fire Authority enforcement action",
+          "Reasonable possibility of successful legal challenge. Reasonable possibility of regulatory interest."
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 14,
+        "section": "Table 1. Impact Ratings",
+        "score": 2,
+        "label": "Minor",
+        "financial": "0.01% - 0.1% of annual WBC budget £17.5k - £175k",
+        "personal": "Major financial loss £1,000+ Illness e.g. stress / minor accident / RIDDOR",
+        "assets": "Partial loss of minor building. Temporary loss of minor ICT system – up to one week. Loss of Major system – up to one day",
+        "reputation": "Ombudsman complaint upheld",
+        "compliance": "Low possibility of legal challenge. Low possibility regulatory interest",
+        "table_row": true,
+        "row_window": 9,
+        "quote": [
+          "2",
+          "Minor",
+          "0.01% -",
+          "0.1% of",
+          "annual WBC",
+          "budget",
+          "£17.5k -",
+          "£175k",
+          "Major financial loss £1,000+ Illness e.g. stress / minor accident / RIDDOR",
+          "Partial loss of minor building. Temporary loss of minor ICT system – up to one week. Loss of Major system – up to one day",
+          "Ombudsman complaint upheld",
+          "Low possibility of legal challenge. Low possibility regulatory interest"
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 14,
+        "section": "Table 1. Impact Ratings",
+        "score": 1,
+        "label": "Negligible",
+        "financial": "Less than 0.01% annual WBC budget £17.5k",
+        "personal": "Minor Financial loss up to £1,000 / complaint / Grievance",
+        "assets": "Loss of minor ICT system - up to one day",
+        "reputation": "Adverse publicity locally",
+        "compliance": "Negligible possibility of legal challenge or regulatory interest",
+        "table_row": true,
+        "row_window": 8,
+        "quote": [
+          "1",
+          "Negligible",
+          "Less than",
+          "0.01%",
+          "annual WBC",
+          "budget",
+          "£17.5k",
+          "Minor Financial loss up to £1,000 / complaint / Grievance",
+          "Loss of minor ICT system - up to one day",
+          "Adverse publicity locally",
+          "Negligible possibility of legal challenge or regulatory interest"
+        ]
+      }
+    ],
+    "matrix": {
+      "section": "Figure 1. 5x5 Risk Matrix Assessments",
+      "size": "5x5",
+      "likelihood_axis": {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 18,
+        "section": "Figure 1. 5x5 Risk Matrix Assessments (likelihood axis)",
+        "columns": [
+          "Rare",
+          "Unlikely",
+          "Likely",
+          "Almost Certain",
+          "Certain"
+        ],
+        "column_numbers": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "layout_rows": [
+          [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          [
+            "Rare",
+            "Unlikely",
+            "Likely",
+            "Almost Certain",
+            "Certain"
+          ]
+        ],
+        "quote": [
+          "Likelihood"
+        ]
+      },
+      "rows": [
+        {
+          "impact": 5,
+          "label": "Critical",
+          "bands": [
+            "Moderate",
+            "High",
+            "Extreme",
+            "Extreme",
+            "Extreme"
+          ],
+          "scores": [
+            5,
+            10,
+            15,
+            20,
+            25
+          ],
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 18,
+          "section": "Figure 1. 5x5 Risk Matrix Assessments",
+          "quote": [
+            "Critical"
+          ],
+          "layout_rows": [
+            [
+              "Moderate",
+              "High",
+              "Extreme",
+              "Extreme",
+              "Extreme"
+            ],
+            [
+              "5",
+              "10",
+              "15",
+              "20",
+              "25"
+            ]
+          ]
+        },
+        {
+          "impact": 4,
+          "label": "Major",
+          "bands": [
+            "Moderate",
+            "High",
+            "High",
+            "Extreme",
+            "Extreme"
+          ],
+          "scores": [
+            4,
+            8,
+            12,
+            16,
+            20
+          ],
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 18,
+          "section": "Figure 1. 5x5 Risk Matrix Assessments",
+          "quote": [
+            "Major"
+          ],
+          "layout_rows": [
+            [
+              "Moderate",
+              "High",
+              "High",
+              "Extreme",
+              "Extreme"
+            ],
+            [
+              "4",
+              "8",
+              "12",
+              "16",
+              "20"
+            ]
+          ]
+        },
+        {
+          "impact": 3,
+          "label": "Medium",
+          "bands": [
+            "Low",
+            "Moderate",
+            "High",
+            "High",
+            "Extreme"
+          ],
+          "scores": [
+            3,
+            6,
+            9,
+            12,
+            15
+          ],
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 18,
+          "section": "Figure 1. 5x5 Risk Matrix Assessments",
+          "quote": [
+            "Medium"
+          ],
+          "layout_rows": [
+            [
+              "Low",
+              "Moderate",
+              "High",
+              "High",
+              "Extreme"
+            ],
+            [
+              "3",
+              "6",
+              "9",
+              "12",
+              "15"
+            ]
+          ]
+        },
+        {
+          "impact": 2,
+          "label": "Minor",
+          "bands": [
+            "Low",
+            "Moderate",
+            "Moderate",
+            "High",
+            "High"
+          ],
+          "scores": [
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 18,
+          "section": "Figure 1. 5x5 Risk Matrix Assessments",
+          "quote": [
+            "Minor"
+          ],
+          "layout_rows": [
+            [
+              "Low",
+              "Moderate",
+              "Moderate",
+              "High",
+              "High"
+            ],
+            [
+              "2",
+              "4",
+              "6",
+              "8",
+              "10"
+            ]
+          ]
+        },
+        {
+          "impact": 1,
+          "label": "Negligible",
+          "bands": [
+            "Low",
+            "Low",
+            "Low",
+            "Moderate",
+            "Moderate"
+          ],
+          "scores": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 18,
+          "section": "Figure 1. 5x5 Risk Matrix Assessments",
+          "quote": [
+            "Negligible"
+          ],
+          "layout_rows": [
+            [
+              "Low",
+              "Low",
+              "Low",
+              "Moderate",
+              "Moderate"
+            ],
+            [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ]
+          ]
+        }
+      ]
+    },
+    "bands": [
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 19,
+        "section": "Table 4. RAG Levels, Risk Scores, Escalation and Responses",
+        "band": "Extreme",
+        "rag": "(Red)",
+        "score_range": "15 -25",
+        "escalation": "Add to Corporate Risk Register and mitigation action.",
+        "response": "Allocate to Executive Director to oversee and Service Director implement agreed actions.",
+        "table_row": true,
+        "quote": [
+          "Extreme",
+          "(Red)",
+          "15 -25",
+          "Add to Corporate",
+          "Risk Register and",
+          "mitigation action.",
+          "Allocate to Executive Director to",
+          "oversee and Service Director",
+          "implement agreed actions."
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 19,
+        "section": "Table 4. RAG Levels, Risk Scores, Escalation and Responses",
+        "band": "Medium - High",
+        "rag": "(Amber)",
+        "score_range": "8-12",
+        "escalation": "Seek assurance that identified controls are effective",
+        "response": "Allocate to Service Director to put in place Controls Assurance.",
+        "table_row": true,
+        "row_window": 4,
+        "quote": [
+          "Medium -",
+          "High",
+          "(Amber)",
+          "8-12",
+          "Seek assurance",
+          "that identified",
+          "controls are",
+          "effective",
+          "Allocate to Service Director to put in",
+          "place Controls Assurance."
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 19,
+        "section": "Table 4. RAG Levels, Risk Scores, Escalation and Responses",
+        "band": "Moderate",
+        "score_range": "4-6",
+        "escalation": "None",
+        "response": "Monitor risk",
+        "note": "No RAG colour label is printed for this band in Table 4 (the other bands carry '(Red)', '(Amber)', '(Green)'); the cell is shaded yellow (visual check of the rendered page, not in the extracted text).",
+        "table_row": true,
+        "quote": [
+          "Moderate",
+          "4-6",
+          "None",
+          "Monitor risk"
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 19,
+        "section": "Table 4. RAG Levels, Risk Scores, Escalation and Responses",
+        "band": "Low",
+        "rag": "(Green)",
+        "score_range": "Up to 3",
+        "escalation": "None",
+        "response": "Consider at next annual review",
+        "table_row": true,
+        "quote": [
+          "Low",
+          "(Green)",
+          "Up to 3",
+          "None",
+          "Consider at next annual review"
+        ]
+      }
+    ],
+    "appetite": [
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 16,
+        "section": "5.8",
+        "kind": "note",
+        "note": "Table 3 marks appetite by shading; the shading does not survive text extraction (see gaps).",
+        "quote": "with shaded areas identifying the Council’s risk appetite levels:"
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 16,
+        "section": "Table 3. West Berkshire Council Risk Appetite",
+        "kind": "table3_levels",
+        "levels": [
+          "Averse",
+          "Cautious",
+          "Flexible",
+          "Open",
+          "Seeking"
+        ],
+        "table_row": true,
+        "quote": [
+          "Risk levels",
+          "Averse",
+          "Cautious",
+          "Flexible",
+          "Open",
+          "Seeking"
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 16,
+        "section": "Table 3. West Berkshire Council Risk Appetite",
+        "kind": "table3_row",
+        "category": "Financial/ Asset",
+        "description_text": "– amount of financial loss prepared to put at risk through lost investment and/or financial loss",
+        "averse": "Up to £100k",
+        "cautious": "£100k - £250k",
+        "flexible": "£250k - £500k",
+        "open": "£500k - £1m",
+        "seeking": "£1m +",
+        "table_row": true,
+        "quote": [
+          "Financial/ Asset",
+          "– amount of financial loss prepared to put at risk through lost investment and/or financial loss",
+          "Up to £100k",
+          "£100k -",
+          "£250k",
+          "£250k - £500k",
+          "£500k - £1m",
+          "£1m +"
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 16,
+        "section": "Table 3. West Berkshire Council Risk Appetite",
+        "kind": "table3_row",
+        "category": "Compliance",
+        "description_text": "Exposure to legal challenge. Risk of regulatory interest/ involvement",
+        "averse": "Following approved standards and practices, engaging in business as usual, low value transactions",
+        "cautious": "Following approved standards and practices, engaging in business as usual, increased value transactions",
+        "flexible": "Following approved standards and practices as far as possible, innovating, public interest, high value transactions",
+        "open": "Innovating, new area of work, significant public interest, high value transaction",
+        "seeking": "Innovating in unprecedented environment",
+        "table_row": true,
+        "quote": [
+          "Compliance",
+          "Exposure to legal challenge. Risk of regulatory interest/ involvement",
+          "Following approved standards and practices, engaging in business as usual, low value transactions",
+          "Following approved standards and practices, engaging in business as usual, increased value transactions",
+          "Following approved standards and practices as far as possible, innovating, public interest, high value transactions",
+          "Innovating, new area of work, significant public interest, high value transaction",
+          "Innovating in unprecedented environment"
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 16,
+        "section": "Table 3. West Berkshire Council Risk Appetite",
+        "kind": "table3_row",
+        "category": "Reputation",
+        "description_text": "Exposure to reputational damage or enhancement",
+        "averse": "No chance of any repercussions / negative comments",
+        "cautious": "Little chance of significant repercussions and mitigation in place beforehand",
+        "flexible": "Exposure of greater scrutiny and public interest. Management through listening and active engagement. Risk of",
+        "flexible_continuation": {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 17,
+          "section": "Table 3. West Berkshire Council Risk Appetite (Reputation row, Flexible cell continued at top of p17)",
+          "text": "reputational damage.",
+          "quote": "reputational damage."
+        },
+        "open": "Experimental– possible significant reputational damage or enhancement",
+        "seeking": "Unprecedented – probable significant reputational damage or enhancement",
+        "table_row": true,
+        "quote": [
+          "Reputation",
+          "Exposure to reputational damage or enhancement",
+          "No chance of any repercussions / negative comments",
+          "Little chance of significant repercussions and mitigation in place beforehand",
+          "Exposure of greater scrutiny and public interest. Management through listening and active engagement. Risk of",
+          "Experimental– possible significant reputational damage or enhancement",
+          "Unprecedented – probable significant reputational damage or enhancement"
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 17,
+        "section": "Table 3. West Berkshire Council Risk Appetite",
+        "kind": "table3_row",
+        "category": "Operational",
+        "description_text": "Related to the delivery of Council Strategy",
+        "averse": "Essential development of core business only",
+        "cautious": "Maintain status quo; new schemes are tried and tested only by others",
+        "flexible": "Encourage innovation through new schemes offered to the Council",
+        "open": "Proactive pursuit of innovation and crafting solutions that have not been attempted before",
+        "seeking": "Desire to ‘break the mould’ and challenge current working practices",
+        "table_row": true,
+        "quote": [
+          "Operational",
+          "Related to the delivery of Council Strategy",
+          "Essential development of core business only",
+          "Maintain status quo; new schemes are tried and tested only by others",
+          "Encourage innovation through new schemes offered to the Council",
+          "Proactive pursuit of innovation and crafting solutions that have not been attempted before",
+          "Desire to ‘break the mould’ and challenge current working practices"
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 17,
+        "section": "5.10",
+        "kind": "statement_5_10",
+        "category": "Financial",
+        "appetite_level": "Flexible",
+        "quote": [
+          "Financial Risk Appetite – Flexible",
+          "The Council aims to operate with a financial risk between £250k – £500k. This relates primarily to the transformation activities rather than the core business areas in order to stimulate the initiatives to digitise service delivery or to achieve better, faster and cheaper service delivery more effectively delivered in partnership."
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 17,
+        "section": "5.10",
+        "kind": "statement_5_10",
+        "category": "Compliance",
+        "appetite_level": "Flexible/Open",
+        "quote": [
+          "Compliance Risk Appetite – Flexible/Open",
+          "The Council aims to operate with a legal risk that finely balanced between flexible and open, following approved standards and practices as far as possible but also allowing for innovation, willing to engage in new areas of work, of significant public interest, and related to high value transactions."
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 17,
+        "section": "5.10",
+        "kind": "statement_5_10",
+        "category": "Reputation",
+        "appetite_level": "Open",
+        "quote": [
+          "Reputation Risk appetite – Open",
+          "The Council’s reputation is one of the most important assets which employees and Councillors aim to protect to ensure there is little chance of significant repercussions. This relates primarily to the core business areas. As custodians of the public’s trust and public’s funds, even the transformational activities are delivered with sound governance arrangements in place and follow a strong and consistent corporate project management methodology. However, in the process of seeking the benefits of new ways of achieving or improving outcomes for the residents the Council is seeking an open reputational risk, with possible significant reputational damage or enhancement."
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 18,
+        "section": "5.10 (continued)",
+        "kind": "statement_5_10",
+        "category": "Operational",
+        "appetite_level": "Open",
+        "quote": [
+          "Operational risk appetite – Open",
+          "The Council aims to operate with an open appetite for innovation and for crafting service delivery models and initiatives that redefine the ways in which residents and stakeholders are enabled to achieve their outcomes."
+        ]
+      }
+    ],
+    "escalation": [
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 21,
+        "section": "6.1",
+        "kind": "escalation_rule",
+        "quote": "It is the responsibility of all staff to assess risks associated with their work and projects and to escalate any potential risks which they feel cannot be managed within sensible parameters to their Directorate Management Team. These risks may then be escalated further as part of the quarterly review of the Corporate Risk Register at Corporate Board."
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 21,
+        "section": "6.3",
+        "kind": "escalation_rule",
+        "quote": "Where risk levels are considered to be extrene (Red) on the risk matrix, the appropriate Service Director must escalate the risk to the Executive Director for a discussion at Directorate level so that consideration can be given as to whether the risk should be moved to the Directorate Risk Register or the Corporate Risk Register. Risk escalation to the Corporate Risk Register is the responsibility of the Service Director and Executive Director."
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 19,
+        "section": "Table 4. RAG Levels, Risk Scores, Escalation and Responses",
+        "kind": "register_inclusion",
+        "register": "Corporate Risk Register",
+        "band": "Extreme",
+        "score_range": "15 -25",
+        "escalation": "Add to Corporate Risk Register and mitigation action.",
+        "table_row": true,
+        "quote": [
+          "Extreme",
+          "(Red)",
+          "15 -25",
+          "Add to Corporate",
+          "Risk Register and",
+          "mitigation action."
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 21,
+        "section": "Figure 4. Risk Escalation",
+        "kind": "register_inclusion",
+        "register": "Corporate Risk Register (CRR)",
+        "owner": "(Owned by Corporate Board)",
+        "includes": [
+          "Score 9 or above",
+          "Significantly impact on the ability to operate and achieve objectives"
+        ],
+        "escalation_responsibility": "Corporate Board",
+        "monitoring": [
+          "Quarterly Corporate Board",
+          "Six monthly Governance and Ethics Committee"
+        ],
+        "quote": [
+          "Corporate Risk Register (CRR)",
+          "(Owned by Corporate Board)",
+          "Includes risks that:",
+          "Score 9 or above",
+          "Significantly impact on the ability to operate and achieve objectives",
+          "Corporate Board",
+          "Quarterly Corporate Board",
+          "Six monthly Governance and Ethics Committee"
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 21,
+        "section": "Figure 4. Risk Escalation",
+        "kind": "register_inclusion",
+        "register": "Directorate Risk Register (DRR)",
+        "owner": "Owned by the Directorate SMT",
+        "includes": [
+          "Plans overseen by the Directorate",
+          "More than one service"
+        ],
+        "escalation_responsibility": "Executive Director",
+        "monitoring": [
+          "Quarterly – Directorate SMT, Executive Members and Corporate Management Team (CMT)"
+        ],
+        "quote": [
+          "Directorate Risk Register (DRR)",
+          "Owned by the Directorate SMT",
+          "Includes risks that impact:",
+          "Plans overseen by the Directorate",
+          "More than one service",
+          "Executive Director",
+          "Quarterly – Directorate SMT, Executive Members and Corporate Management Team (CMT)"
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 21,
+        "section": "Figure 4. Risk Escalation",
+        "kind": "register_inclusion",
+        "register": "Service (operational) Risk Register (SRR) or Project Risks Registers (PRR)",
+        "owner": "Owned by Head of Service/Service Director and Service/Project Managers",
+        "includes": [
+          "Service, team or project delivery",
+          "Regulations",
+          "The council s reputation",
+          "Finance",
+          "Health and Safety",
+          "Business continuity",
+          "The environment",
+          "The council s employees and partner organisations"
+        ],
+        "monitoring": [
+          "Monthly – Head of Service/ Service Director and Service/ Project Managers"
+        ],
+        "quote": [
+          "Service (operational) Risk Register (SRR) or",
+          "Project Risks Registers (PRR)",
+          "Owned by Head of Service/Service Director and",
+          "Service/Project Managers",
+          "Includes risks that impact on:",
+          "Service, team or project delivery",
+          "Regulations",
+          "The council s reputation",
+          "Finance",
+          "Health and Safety",
+          "Business continuity",
+          "The environment",
+          "The council s employees and partner organisations",
+          "Monthly – Head of Service/ Service Director and Service/ Project Managers"
+        ]
+      },
+      {
+        "source": "risk-management-strategy-2024-27.pdf",
+        "pdf_page": 24,
+        "section": "7.2",
+        "kind": "register_definition",
+        "register": "Corporate Risk Register",
+        "quote": "Corporate Risk Register – this register records the most significant risks for the Council or those risks which may prevent the Council from achieving its strategic objectives as set out in the Council Strategy."
+      }
+    ]
+  },
+  "discrepancies": [
+    {
+      "id": "DIS-01",
+      "description": "Paragraph 4.3 lists Medium impact as (2); Table 1 on the same page lists Medium as 3.",
+      "refs": [
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 14,
+          "section": "4.3",
+          "quote": "Negligible (1), Minor (2), Medium (2), Major (4), or Critical impact(5)"
+        },
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 14,
+          "section": "Table 1. Impact Ratings",
+          "quote": [
+            "3",
+            "Medium"
+          ],
+          "table_row": true
+        }
+      ]
+    },
+    {
+      "id": "DIS-02",
+      "description": "Table 1 financial column: the Major percentage range (0.25% - 1%) and the Medium percentage range (0.1% - 0.3%) overlap between 0.25% and 0.3%.",
+      "refs": [
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 14,
+          "section": "Table 1. Impact Ratings",
+          "quote": [
+            "4",
+            "Major",
+            "0.25% - 1%"
+          ],
+          "table_row": true
+        },
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 14,
+          "section": "Table 1. Impact Ratings",
+          "quote": [
+            "3",
+            "Medium",
+            "0.1% - 0.3%"
+          ],
+          "table_row": true
+        }
+      ]
+    },
+    {
+      "id": "DIS-03",
+      "description": "Figure 1 names the bands Low / Moderate / High / Extreme; Table 4 names them Low (Green) / Moderate / Medium - High (Amber) / Extreme (Red). Figure 1's 'High' appears in Table 4 as 'Medium - High', and Table 4 prints no RAG colour label for Moderate, although its cell is shaded yellow (visual check of the rendered page).",
+      "refs": [
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 18,
+          "section": "Figure 1. 5x5 Risk Matrix Assessments",
+          "quote": "Low Moderate High High Extreme"
+        },
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 19,
+          "section": "Table 4. RAG Levels, Risk Scores, Escalation and Responses",
+          "quote": [
+            "Medium -",
+            "High",
+            "(Amber)",
+            "8-12"
+          ],
+          "table_row": true,
+          "row_window": 4
+        },
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 19,
+          "section": "Table 4. RAG Levels, Risk Scores, Escalation and Responses",
+          "quote": [
+            "Moderate",
+            "4-6",
+            "None",
+            "Monitor risk"
+          ],
+          "table_row": true
+        },
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 19,
+          "section": "Table 4. RAG Levels, Risk Scores, Escalation and Responses",
+          "quote": [
+            "Extreme",
+            "(Red)",
+            "15 -25"
+          ],
+          "table_row": true
+        },
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 19,
+          "section": "Table 4. RAG Levels, Risk Scores, Escalation and Responses",
+          "quote": [
+            "Low",
+            "Up to 3",
+            "(Green)"
+          ],
+          "table_row": true
+        }
+      ]
+    },
+    {
+      "id": "DIS-04",
+      "description": "Corporate Risk Register inclusion is stated three ways: Table 4 adds Extreme risks (15 -25) to the Corporate Risk Register; Figure 4 says the CRR includes risks that score 9 or above; paragraph 6.3 says extreme (Red) risks are escalated to the Executive Director for consideration of whether they move to the Directorate or the Corporate Risk Register.",
+      "refs": [
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 19,
+          "section": "Table 4. RAG Levels, Risk Scores, Escalation and Responses",
+          "quote": [
+            "Extreme",
+            "15 -25",
+            "Add to Corporate",
+            "Risk Register and"
+          ],
+          "table_row": true
+        },
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 21,
+          "section": "Figure 4. Risk Escalation",
+          "quote": "Score 9 or above",
+          "context_quote": [
+            "Corporate Risk Register (CRR)",
+            "Includes risks that:"
+          ]
+        },
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 21,
+          "section": "6.3",
+          "quote": "consideration can be given as to whether the risk should be moved to the Directorate Risk Register or the Corporate Risk Register"
+        }
+      ]
+    },
+    {
+      "id": "DIS-05",
+      "description": "The strategy objective on the risk matrix describes the risk appetite as 'changed' on p9 and as 'increased' on p20.",
+      "refs": [
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 9,
+          "section": "2.1 Risk Management Policy Statement, Objectives",
+          "quote": "Implement the updated risk matrix reflecting a changed risk appetite and the tolerances set in the risk management strategy."
+        },
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 20,
+          "section": "Objective resulting from the section above (after 5.18)",
+          "quote": "Implement the new risk matrix reflecting an increased risk appetite and the tolerances set in this risk strategy"
+        }
+      ]
+    },
+    {
+      "id": "DIS-06",
+      "description": "Appendix 1 (Risk Management Policy) has two paragraphs numbered 4.3 on the same page.",
+      "refs": [
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 28,
+          "section": "Appendix 1, 4.3 (first)",
+          "quote": "4.3 The assessment that the culture of the organisation is ‘risk aware’ is based on the"
+        },
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 28,
+          "section": "Appendix 1, 4.3 (second)",
+          "quote": "4.3 An effective corporate approach to risk management will:"
+        }
+      ]
+    },
+    {
+      "id": "DIS-07",
+      "description": "Internal Audit Plan covering report: 4.7 says the level of resource is 'sufficient to meet' the planned programme; 5.8 says it is 'approximately in line with' the number of days in the planned programme.",
+      "refs": [
+        {
+          "source": "internal-audit-plan-2025-28.pdf",
+          "pdf_page": 3,
+          "section": "4.7",
+          "quote": "The plan over the three-year period shows the level of resource is sufficient to meet the planned programme of work."
+        },
+        {
+          "source": "internal-audit-plan-2025-28.pdf",
+          "pdf_page": 5,
+          "section": "5.8",
+          "quote": "The plan over the three-year period shows the level of resource is approximately in line with the number of days in the planned programme of work."
+        }
+      ]
+    },
+    {
+      "id": "DIS-08",
+      "description": "The controls assurance objective is worded as 're-introduction' on p9 and as 'introduction' on p21.",
+      "refs": [
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 9,
+          "section": "2.1 Risk Management Policy Statement, Objectives",
+          "quote": "Support the re-introduction of a controls assurance process."
+        },
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 21,
+          "section": "Objective resulting from the section above (after Figure 4)",
+          "quote": "Support the introduction of a control’s assurance process"
+        }
+      ]
+    },
+    {
+      "id": "DIS-09",
+      "description": "Appendix 1 paragraph 2.3 says the definitions of other key terminology are listed as part of Appendix 1; the definitions are printed under the heading Appendix 2.",
+      "refs": [
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 26,
+          "section": "Appendix 1, 2.3",
+          "quote": "The definitions for the other key risk management terminology used in this document are listed as part of Appendix 1."
+        },
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 34,
+          "section": "Appendix 2 heading",
+          "quote": "Appendix 2 - Definitions of key terminology that is part of West Berkshire Council’s risk management framework"
+        }
+      ]
+    },
+    {
+      "id": "DIS-10",
+      "description": "The risk management policy is referred to as Appendix A in the policy statement (p9) but is printed as Appendix 1 (p26); the covering report uses Appendix A for the strategy itself (p3).",
+      "refs": [
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 9,
+          "section": "2.1 Risk Management Policy Statement",
+          "quote": "This Strategy includes a risk management policy (see Appendix A)"
+        },
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 26,
+          "section": "Appendix 1 heading",
+          "quote": "Appendix 1 - Risk Management Policy"
+        },
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 3,
+          "section": "7 Appendices (covering report)",
+          "quote": "Appendix A – Risk Management Strategy"
+        }
+      ]
+    },
+    {
+      "id": "DIS-11",
+      "description": "The source cited for the risk appetite definition differs: 5.2 cites Risk Appetite Guidance v.2., August2021; Appendix 2 cites Risk Appetite Guidance note V1.0, October 2020.",
+      "refs": [
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 15,
+          "section": "5.2",
+          "quote": "(Source: Government Finance Function – Risk Appetite Guidance v.2., August2021)"
+        },
+        {
+          "source": "risk-management-strategy-2024-27.pdf",
+          "pdf_page": 34,
+          "section": "Appendix 2, Risk appetite",
+          "quote": "(Source: Government Finance Function – Risk Appetite Guidance note V1.0, October 2020)"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "id": "GAP-01",
+      "section": "agreed_actions",
+      "what": "Open or overdue agreed audit actions (theme, due date, status)",
+      "reason": "Neither completed-work appendix lists agreed actions, due dates or statuses; they give opinions only. The Internal Audit Plan covering report (5.6(b), p5) only says monitoring reports on implementation of agreed recommendations are produced; none is in data/committee. Follow-up opinions are recorded under follow_ups and are not converted into actions."
+    },
+    {
+      "id": "GAP-02",
+      "section": "planned_audits",
+      "what": "The 2025-2028 audit programme (Appendix D of the Internal Audit Plan) and Appendices A, B, C, E and F",
+      "reason": "internal-audit-plan-2025-28.pdf holds only the 7-page covering report for the Governance Committee of 29th April 2025; paragraph 8 lists Appendices A-F but none is included in the file."
+    },
+    {
+      "id": "GAP-03",
+      "section": "audits_completed",
+      "what": "Covering reports for the two completed-work appendices (narrative, recommendation counts, management responses)",
+      "reason": "Only Appendix A of each Internal Audit Plan Update Report is in data/committee; the covering reports are not, so no narrative, recommendation count or management response is recorded."
+    },
+    {
+      "id": "GAP-04",
+      "section": "risk_themes",
+      "what": "Strategic Risk Register",
+      "reason": "The Strategic Risk Register is an exempt (confidential) report, not public and not in data/committee; no risk themes are taken from it."
+    },
+    {
+      "id": "GAP-05",
+      "section": "risk_themes",
+      "what": "Corporate Risk Register",
+      "reason": "The Corporate Risk Register is referred to in the strategy and in the Internal Audit Plan covering report but is not in data/committee."
+    },
+    {
+      "id": "GAP-06",
+      "section": "risk_themes",
+      "what": "Risk themes named in the audit papers",
+      "reason": "The completed-work appendices and the Internal Audit Plan covering report name no risk themes (5.7 of the plan says Appendix D sets out key risks, but Appendix D is not in the file). The only candidate is section 3 Context of the Risk Management Strategy (p10-13), which is not an audit paper and is therefore not recorded as a risk theme."
+    },
+    {
+      "id": "GAP-07",
+      "section": "follow_ups",
+      "what": "Follow-ups and advisory reviews for the period to End of December 2025",
+      "reason": "audit-completed-work-2025-26-q3.pdf records 'None' under 2) COMPLETED FOLLOW UPS and 3) COMPLETED ADVISORY REVIEWS/OTHER WORK; all follow_ups and advisory_reviews recorded come from the End of March 2025 appendix."
+    },
+    {
+      "id": "GAP-08",
+      "section": "scoring_method",
+      "what": "Which Table 3 risk-appetite level is shaded for each category, and the colours in Figure 1",
+      "reason": "5.8 says shaded areas identify the appetite levels in Table 3, and Figure 1 is a coloured matrix; shading and colour are not carried in the pdftotext output, so only the printed cell text and the 5.10 statements are recorded."
+    }
+  ]
+}

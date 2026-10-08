@@ -1,0 +1,650 @@
+{
+ "scope": {
+  "register_revision": 1,
+  "risks_in_register": 6,
+  "in_scope": 6,
+  "rejected": 0
+ },
+ "risks": {
+  "R-01": {
+   "likelihood": 3,
+   "impact": 3,
+   "score": 9,
+   "band": "Medium - High",
+   "decision": "approve",
+   "sample_size_per_test": 15,
+   "controls": 3,
+   "tests": 4,
+   "sampled_items": 52,
+   "sampled_transactions": 563,
+   "sampled_gbp": 16858615.2
+  },
+  "R-02": {
+   "likelihood": 3,
+   "impact": 3,
+   "score": 9,
+   "band": "Medium - High",
+   "decision": "amend",
+   "sample_size_per_test": 15,
+   "controls": 2,
+   "tests": 2,
+   "sampled_items": 23,
+   "sampled_transactions": 405,
+   "sampled_gbp": 20728642.4
+  },
+  "R-03": {
+   "likelihood": 3,
+   "impact": 3,
+   "score": 9,
+   "band": "Medium - High",
+   "decision": "approve",
+   "sample_size_per_test": 15,
+   "controls": 1,
+   "tests": 1,
+   "sampled_items": 8,
+   "sampled_transactions": 60,
+   "sampled_gbp": 243364.42
+  },
+  "R-04": {
+   "likelihood": 3,
+   "impact": 3,
+   "score": 9,
+   "band": "Medium - High",
+   "decision": "amend",
+   "sample_size_per_test": 15,
+   "controls": 1,
+   "tests": 1,
+   "sampled_items": 15,
+   "sampled_transactions": 55,
+   "sampled_gbp": 875827.82
+  },
+  "R-05": {
+   "likelihood": 3,
+   "impact": 3,
+   "score": 9,
+   "band": "Medium - High",
+   "decision": "approve",
+   "sample_size_per_test": 15,
+   "controls": 1,
+   "tests": 1,
+   "sampled_items": 15,
+   "sampled_transactions": 35,
+   "sampled_gbp": 542579.56
+  },
+  "R-06": {
+   "likelihood": 2,
+   "impact": 2,
+   "score": 4,
+   "band": "Moderate",
+   "decision": "approve",
+   "sample_size_per_test": 10,
+   "controls": 1,
+   "tests": 1,
+   "sampled_items": 10,
+   "sampled_transactions": 1294,
+   "sampled_gbp": 8436057.67
+  }
+ },
+ "tests": {
+  "T-01": {
+   "risk_id": "R-01",
+   "source_file": "split_purchases.csv",
+   "test": "split_purchases",
+   "population_items": 580,
+   "after_filter": 55,
+   "target_size": 15,
+   "requested_size": 15,
+   "sampled_items": 15,
+   "sampled_transactions": 267,
+   "sampled_gbp": 1583227.18,
+   "population_short": false
+  },
+  "T-02": {
+   "risk_id": "R-01",
+   "source_file": "split_purchases.csv",
+   "test": "split_purchases",
+   "population_items": 580,
+   "after_filter": 7,
+   "target_size": 15,
+   "requested_size": 15,
+   "sampled_items": 7,
+   "sampled_transactions": 227,
+   "sampled_gbp": 15178598.01,
+   "population_short": true
+  },
+  "T-03": {
+   "risk_id": "R-01",
+   "source_file": "threshold_clustering.csv",
+   "test": "threshold_clustering",
+   "population_items": 366,
+   "after_filter": 63,
+   "target_size": 15,
+   "requested_size": 15,
+   "sampled_items": 15,
+   "sampled_transactions": 15,
+   "sampled_gbp": 60472.59,
+   "population_short": false
+  },
+  "T-10": {
+   "risk_id": "R-01",
+   "source_file": "split_purchases.csv",
+   "test": "split_purchases",
+   "population_items": 580,
+   "after_filter": 87,
+   "target_size": 15,
+   "requested_size": 15,
+   "sampled_items": 15,
+   "sampled_transactions": 54,
+   "sampled_gbp": 36317.42,
+   "population_short": false
+  },
+  "T-04": {
+   "risk_id": "R-02",
+   "source_file": "off_contract.csv",
+   "test": "off_contract",
+   "population_items": 618,
+   "after_filter": 179,
+   "target_size": 15,
+   "requested_size": 15,
+   "sampled_items": 15,
+   "sampled_transactions": 292,
+   "sampled_gbp": 20459189.43,
+   "population_short": false
+  },
+  "T-05": {
+   "risk_id": "R-02",
+   "source_file": "off_contract.csv",
+   "test": "off_contract",
+   "population_items": 618,
+   "after_filter": 8,
+   "target_size": 15,
+   "requested_size": 15,
+   "sampled_items": 8,
+   "sampled_transactions": 113,
+   "sampled_gbp": 269452.97,
+   "population_short": true
+  },
+  "T-06": {
+   "risk_id": "R-03",
+   "source_file": "expired_notice_spend.csv",
+   "test": "expired_notice_spend",
+   "population_items": 8,
+   "after_filter": 8,
+   "target_size": 15,
+   "requested_size": 15,
+   "sampled_items": 8,
+   "sampled_transactions": 60,
+   "sampled_gbp": 243364.42,
+   "population_short": true
+  },
+  "T-07": {
+   "risk_id": "R-04",
+   "source_file": "spend_vs_award.csv",
+   "test": "spend_vs_award",
+   "population_items": 20,
+   "after_filter": 20,
+   "target_size": 15,
+   "requested_size": 15,
+   "sampled_items": 15,
+   "sampled_transactions": 55,
+   "sampled_gbp": 875827.82,
+   "population_short": false
+  },
+  "T-08": {
+   "risk_id": "R-05",
+   "source_file": "duplicates.csv",
+   "test": "duplicates",
+   "population_items": 684,
+   "after_filter": 50,
+   "target_size": 15,
+   "requested_size": 15,
+   "sampled_items": 15,
+   "sampled_transactions": 35,
+   "sampled_gbp": 542579.56,
+   "population_short": false
+  },
+  "T-09": {
+   "risk_id": "R-06",
+   "source_file": "off_contract.csv",
+   "test": "off_contract",
+   "population_items": 618,
+   "after_filter": 294,
+   "target_size": 10,
+   "requested_size": 10,
+   "sampled_items": 10,
+   "sampled_transactions": 1294,
+   "sampled_gbp": 8436057.67,
+   "population_short": false
+  }
+ },
+ "totals": {
+  "controls": 9,
+  "tests": 10,
+  "sampled_items": 123,
+  "sampled_transactions": 2412,
+  "sampled_gbp": 47685087.07,
+  "pbc_items": 21
+ },
+ "rules": {
+  "total": 66,
+  "cited": 27,
+  "not_tested": 39
+ },
+ "sample_sizes": [
+  {
+   "min_score": 15,
+   "items_per_test": 25
+  },
+  {
+   "min_score": 8,
+   "items_per_test": 15
+  },
+  {
+   "min_score": 4,
+   "items_per_test": 10
+  },
+  {
+   "min_score": 1,
+   "items_per_test": 5
+  }
+ ],
+ "built": "2026-10-08 21:31 UTC",
+ "placeholders": [
+  {
+   "where": "memo.objective",
+   "path": "$.pack.scope.in_scope",
+   "format": "int",
+   "value": 6,
+   "source": "pack"
+  },
+  {
+   "where": "memo.objective",
+   "path": "$.pack.scope.register_revision",
+   "format": "int",
+   "value": 1,
+   "source": "pack"
+  },
+  {
+   "where": "memo.background",
+   "path": "$.window.months",
+   "format": "int",
+   "value": 3,
+   "source": "analytics"
+  },
+  {
+   "where": "memo.background",
+   "path": "$.window.first_payment",
+   "format": "raw",
+   "value": "2026-05-01",
+   "source": "analytics"
+  },
+  {
+   "where": "memo.background",
+   "path": "$.window.last_payment",
+   "format": "raw",
+   "value": "2026-07-31",
+   "source": "analytics"
+  },
+  {
+   "where": "memo.background",
+   "path": "$.cleaning.rows_kept",
+   "format": "int",
+   "value": 8478,
+   "source": "analytics"
+  },
+  {
+   "where": "memo.background",
+   "path": "$.tests.split_purchases.counts.items",
+   "format": "int",
+   "value": 580,
+   "source": "analytics"
+  },
+  {
+   "where": "memo.background",
+   "path": "$.tests.split_purchases.by_tag.general_procurement.items",
+   "format": "int",
+   "value": 149,
+   "source": "analytics"
+  },
+  {
+   "where": "memo.background",
+   "path": "$.tests.off_contract.counts.non_placement",
+   "format": "int",
+   "value": 324,
+   "source": "analytics"
+  },
+  {
+   "where": "memo.background",
+   "path": "$.tests.expired_notice_spend.counts.items",
+   "format": "int",
+   "value": 8,
+   "source": "analytics"
+  },
+  {
+   "where": "memo.background",
+   "path": "$.tests.spend_vs_award.counts.items",
+   "format": "int",
+   "value": 8,
+   "source": "analytics"
+  },
+  {
+   "where": "memo.background",
+   "path": "$.tests.duplicates.by_tag.general_procurement.items",
+   "format": "int",
+   "value": 50,
+   "source": "analytics"
+  },
+  {
+   "where": "memo.approach",
+   "path": "$.pack.totals.sampled_items",
+   "format": "int",
+   "value": 123,
+   "source": "pack"
+  },
+  {
+   "where": "memo.approach",
+   "path": "$.pack.totals.sampled_transactions",
+   "format": "int",
+   "value": 2412,
+   "source": "pack"
+  },
+  {
+   "where": "memo.approach",
+   "path": "$.pack.totals.sampled_gbp",
+   "format": "gbp",
+   "value": 47685087.07,
+   "source": "pack"
+  },
+  {
+   "where": "memo.approach",
+   "path": "$.pack.totals.tests",
+   "format": "int",
+   "value": 10,
+   "source": "pack"
+  },
+  {
+   "where": "memo.approach",
+   "path": "$.pack.totals.controls",
+   "format": "int",
+   "value": 9,
+   "source": "pack"
+  },
+  {
+   "where": "memo.approach",
+   "path": "$.pack.totals.pbc_items",
+   "format": "int",
+   "value": 21,
+   "source": "pack"
+  },
+  {
+   "where": "memo.limitations",
+   "path": "$.tests.off_contract.coverage.share_by_count",
+   "format": "pct",
+   "value": 0.0735,
+   "source": "analytics"
+  },
+  {
+   "where": "memo.limitations",
+   "path": "$.window.months",
+   "format": "int",
+   "value": 3,
+   "source": "analytics"
+  },
+  {
+   "where": "memo.limitations",
+   "path": "$.tests.duplicates.counts.identical_rows_from_cleaning.rows",
+   "format": "int",
+   "value": 2710,
+   "source": "analytics"
+  },
+  {
+   "where": "T-01 sample.rationale",
+   "path": "$.tests.split_purchases.counts.by_boundary[1].by_tag.general_procurement.items",
+   "format": "int",
+   "value": 55,
+   "source": "analytics"
+  },
+  {
+   "where": "T-03 sample.rationale",
+   "path": "$.tests.threshold_clustering.by_tag.general_procurement.items",
+   "format": "int",
+   "value": 63,
+   "source": "analytics"
+  },
+  {
+   "where": "T-10 sample.rationale",
+   "path": "$.tests.split_purchases.counts.by_boundary[0].by_tag.general_procurement.items",
+   "format": "int",
+   "value": 87,
+   "source": "analytics"
+  },
+  {
+   "where": "T-08 sample.rationale",
+   "path": "$.tests.duplicates.by_tag.general_procurement.items",
+   "format": "int",
+   "value": 50,
+   "source": "analytics"
+  },
+  {
+   "where": "T-09 sample.rationale",
+   "path": "$.tests.off_contract.counts.mainly_placement",
+   "format": "int",
+   "value": 294,
+   "source": "analytics"
+  }
+ ],
+ "inputs": {
+  "outputs/analytics.json": "23ab9d6ab98cbdc17c3ce1b985c34bcfcb7c7cf1be5c6ca9106c46b70a256f27",
+  "outputs/history.json": "1fdeefc521909311643060ee013fe0a2ab28ae2376e89e3deb933b52e80e6ded",
+  "outputs/rules.json": "bf4d92beb73c0e2ea97c8ab0c0949679665eaadba6961b27db42e0befd36819a",
+  "outputs/audit-plan.json": "5773fc3c74f2f7f5526274b9bb70787bf4b8232e7dec8c49f4247a39383234ba",
+  "outputs/risk-ratings.json": "518da33efb4dc6bbdbecc0b01ff6d7f9f4b4471afe3c9cfef20c330d81aa5041",
+  "outputs/auditor-comments.md": "104e9df9174db4c028f39981b7eda274fc399364e6e8af02d821d68331c18336",
+  "outputs/analytics-full/spend_clean.csv": "551f695dc4168dcf317500ae8f3281df84fe2b50d1ea776d1a94bc7e2165d1c6"
+ },
+ "pbc": [
+  {
+   "ref": "PBC-01",
+   "item": "Purchase orders and invoices for the sampled payments",
+   "tests": [
+    "T-01",
+    "T-02",
+    "T-03",
+    "T-10",
+    "T-06",
+    "T-08"
+   ]
+  },
+  {
+   "ref": "PBC-02",
+   "item": "Quotation or tender records from the Procurement Portal, including invitations sent and responses received",
+   "tests": [
+    "T-01",
+    "T-03",
+    "T-10",
+    "T-04"
+   ]
+  },
+  {
+   "ref": "PBC-03",
+   "item": "Contract notice published on the CDP, or the reason none was required",
+   "tests": [
+    "T-01",
+    "T-04"
+   ]
+  },
+  {
+   "ref": "PBC-04",
+   "item": "Contract or framework call-off covering the sampled payments, where one exists",
+   "tests": [
+    "T-01",
+    "T-02",
+    "T-04",
+    "T-06",
+    "T-07"
+   ]
+  },
+  {
+   "ref": "PBC-05",
+   "item": "Procurement-legislation Thresholds in force during the spend window, as published on the Procurement intranet page",
+   "tests": [
+    "T-01",
+    "T-04"
+   ]
+  },
+  {
+   "ref": "PBC-06",
+   "item": "Key Decision record, board report and approval, or Executive decision, for the contract",
+   "tests": [
+    "T-02"
+   ]
+  },
+  {
+   "ref": "PBC-07",
+   "item": "Tender records for the contract (invitation to tender, tenders received, evaluation and award report)",
+   "tests": [
+    "T-02"
+   ]
+  },
+  {
+   "ref": "PBC-08",
+   "item": "The council's contract register as at the end of the spend window",
+   "tests": [
+    "T-04",
+    "T-05"
+   ]
+  },
+  {
+   "ref": "PBC-09",
+   "item": "Purchasing Scheme advice and approval before award, where a framework was used",
+   "tests": [
+    "T-04"
+   ]
+  },
+  {
+   "ref": "PBC-10",
+   "item": "Exception or waiver report and approval, where one was used",
+   "tests": [
+    "T-04"
+   ]
+  },
+  {
+   "ref": "PBC-11",
+   "item": "Supplier master-file record (legal name, trading name and company number) for the sampled suppliers",
+   "tests": [
+    "T-05"
+   ]
+  },
+  {
+   "ref": "PBC-12",
+   "item": "Extension approval by the S151 Officer, with the contract clause providing for extension",
+   "tests": [
+    "T-06"
+   ]
+  },
+  {
+   "ref": "PBC-13",
+   "item": "Ledger spend-to-date over the contract life for the sampled contracts, from the finance system",
+   "tests": [
+    "T-07"
+   ]
+  },
+  {
+   "ref": "PBC-14",
+   "item": "Variation approvals (prior written approval, or board report) for the sampled contracts",
+   "tests": [
+    "T-07"
+   ]
+  },
+  {
+   "ref": "PBC-15",
+   "item": "Award report showing the basis of the award value (estimate, maximum, VAT treatment, lots)",
+   "tests": [
+    "T-07"
+   ]
+  },
+  {
+   "ref": "PBC-16",
+   "item": "Accounts payable duplicate-check report for the spend window, with the resolution of each flagged pair",
+   "tests": [
+    "T-08"
+   ]
+  },
+  {
+   "ref": "PBC-17",
+   "item": "Credit notes, recoveries or reversals for any repeat payment",
+   "tests": [
+    "T-08"
+   ]
+  },
+  {
+   "ref": "PBC-18",
+   "item": "Case notes recording the reasons for the choice of provider for one placement per sampled supplier",
+   "tests": [
+    "T-09"
+   ]
+  },
+  {
+   "ref": "PBC-19",
+   "item": "Agreed care package and rate for the sampled placement",
+   "tests": [
+    "T-09"
+   ]
+  },
+  {
+   "ref": "PBC-20",
+   "item": "Board approval for App C exemptions above the Threshold, where applicable",
+   "tests": [
+    "T-09"
+   ]
+  },
+  {
+   "ref": "PBC-21",
+   "item": "Invoice or payment schedule for the selected placement payment per sampled supplier",
+   "tests": [
+    "T-09"
+   ]
+  }
+ ],
+ "rules_not_tested": [
+  "CPR-01",
+  "CPR-02",
+  "CPR-03",
+  "CPR-05",
+  "CPR-06",
+  "CPR-07",
+  "CPR-09",
+  "CPR-10",
+  "CPR-11",
+  "CPR-12",
+  "CPR-14",
+  "CPR-15",
+  "CPR-16",
+  "CPR-17",
+  "CPR-18",
+  "CPR-19",
+  "CPR-20",
+  "CPR-21",
+  "CPR-22",
+  "CPR-23",
+  "CPR-24",
+  "CPR-25",
+  "CPR-27",
+  "CPR-29",
+  "CPR-30",
+  "CPR-34",
+  "CPR-36",
+  "CPR-37",
+  "CPR-38",
+  "CPR-39",
+  "CPR-40",
+  "CPR-41",
+  "CPR-42",
+  "CPR-43",
+  "CPR-44",
+  "CPR-45",
+  "CPR-46",
+  "CPR-59",
+  "CPR-60"
+ ]
+}

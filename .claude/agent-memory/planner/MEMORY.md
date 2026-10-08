@@ -1,0 +1,1 @@
+- [build_pack recipe tips](build-pack-recipe-tips.md) — boolean filters, rule coverage, typed-number pitfalls in audit-plan.json

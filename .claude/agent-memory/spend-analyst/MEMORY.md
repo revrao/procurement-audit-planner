@@ -1,0 +1,1 @@
+- [Script pitfalls](script_pitfalls.md) — TA alias after normalising, NaN truthiness, 500k boundary inclusivity conflict, openpyxl row numbering

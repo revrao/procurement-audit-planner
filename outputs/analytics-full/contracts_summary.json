@@ -1,0 +1,53 @@
+{
+ "file": "data/contracts.csv",
+ "sha256": "9d0a53c092a5274f44490b428f9ff400ac8cb889df962165720f8a1d0ed42648",
+ "rows_raw": 150,
+ "rows_kept_council": 141,
+ "rows_dropped_other_buyers": 9,
+ "dropped_buyers": {
+  "Ministry of Defence": 5,
+  "Westworks Procurement Ltd": 1,
+  "SOUTHAMPTON CITY COUNCIL": 1,
+  "CITY OF BRADFORD METROPOLITAN DISTRICT COUNCIL": 1,
+  "Health Education England": 1
+ },
+ "kept_buyer_name_variants": {
+  "West Berkshire Council": 115,
+  "West Berkshire": 20,
+  "WEST BERKSHIRE COUNCIL": 6
+ },
+ "council_filter": "Organisation Name trimmed and lower-cased in {'west berkshire council', 'west berkshire'}",
+ "notices_without_supplier": 0,
+ "notice_supplier_rows": 210,
+ "distinct_notices_with_supplier": 141,
+ "distinct_supplier_names": 143,
+ "with_companies_house": 126,
+ "join_note": "The spend data has no company number, so notice-to-spend joins are by normalised name (and trading-as aliases) only; Companies House numbers are retained for the auditor.",
+ "published_range": [
+  "2021-02-23",
+  "2026-09-09"
+ ],
+ "notices_by_published_year": {
+  "2021": 7,
+  "2022": 10,
+  "2023": 39,
+  "2024": 52,
+  "2025": 28,
+  "2026": 5
+ },
+ "window": {
+  "start": "2026-05-01",
+  "end": "2026-07-31"
+ },
+ "notices_live_in_window": 61,
+ "notices_ended_before_window": 79,
+ "notices_awarded_value_zero": 7,
+ "date_formats": {
+  "Contract start/end date": "%d/%m/%Y",
+  "Published Date": "first 10 chars as %Y-%m-%d"
+ },
+ "full_list": "outputs/analytics-full/notice_suppliers.csv",
+ "warnings": [
+  "1 notices have an end date more than 20 years out"
+ ]
+}

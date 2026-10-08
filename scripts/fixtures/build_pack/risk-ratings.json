@@ -1,0 +1,51 @@
+{
+  "assessor": "risk-assessor",
+  "risks": [
+    {
+      "risk_id": "R-01",
+      "title": "Requirements split, or payments pitched just under a quote or approval boundary",
+      "likelihood": {
+        "score": 3,
+        "justification": "The split-purchase test found {{$.tests.split_purchases.counts.items}} supplier groups whose payments each stay under a boundary but together reach the band above within the test window, {{$.tests.split_purchases.by_tag.general_procurement.items}} of them in general procurement [metric:$.tests.split_purchases.counts.items] [metric:$.tests.split_purchases.by_tag.general_procurement.items]. Threshold clustering found {{$.tests.threshold_clustering.counts.items}} payments just under a boundary, {{$.tests.threshold_clustering.by_tag.general_procurement.items}} in general procurement [metric:$.tests.threshold_clustering.counts.items] [metric:$.tests.threshold_clustering.by_tag.general_procurement.items]. Both bear on the clause 6.16 anti-avoidance rule [rule:CPR-13] and the App B quote bands [rule:CPR-50] [rule:CPR-51].",
+        "below_rubric_reason": "The second test does not corroborate the first: at the quote threshold the band just under the boundary holds fewer payments than the comparison band below it (ratio {{$.tests.threshold_clustering.counts.by_boundary[1].ratio_band_to_comparison|num}}) [metric:$.tests.threshold_clustering.counts.by_boundary[1].ratio_band_to_comparison], and at the lower boundary the ratio is close to parity ({{$.tests.threshold_clustering.counts.by_boundary[0].ratio_band_to_comparison|num}}) [metric:$.tests.threshold_clustering.counts.by_boundary[0].ratio_band_to_comparison], so there is no excess clustering. The split-purchase caveat also notes that regular instalments under one contract produce expected groups [metric:$.tests.split_purchases.caveats]. Rated Likely on the split-purchase indicator alone.",
+        "uplift": null
+      },
+      "impact": {
+        "score": 3,
+        "column": "compliance",
+        "financial_figure": null,
+        "justification": "A requirement divided to stay under the App B quote and notice bands would bypass the three-quote and notice requirements [rule:CPR-51] [rule:CPR-52] and the clause 6.16 prohibition [rule:CPR-13]; groups at the higher boundaries would also bypass the App A board and Key Decision approvals [rule:CPR-48]. This is a reasonable possibility of challenge (Table 1 compliance, level 3). Contract Letting last received Reasonable Assurance [history:AUD-01]."
+      },
+      "evidence": [
+        "Split-purchase groups: {{$.tests.split_purchases.counts.items}} groups covering {{$.tests.split_purchases.counts.distinct_payments}} distinct payments worth {{$.tests.split_purchases.gbp_total}}; general procurement {{$.tests.split_purchases.by_tag.general_procurement.items}} groups worth {{$.tests.split_purchases.by_tag.general_procurement.gbp}} [metric:$.tests.split_purchases.by_tag.general_procurement.gbp]",
+        "At the quote threshold of {{$.rules_used.quote_threshold.value|gbp}}: {{$.tests.split_purchases.counts.by_boundary[1].by_tag.general_procurement.items}} general-procurement groups worth {{$.tests.split_purchases.counts.by_boundary[1].by_tag.general_procurement.gbp}} [metric:$.tests.split_purchases.counts.by_boundary[1].by_tag.general_procurement.items]",
+        "At the App A approval boundaries: {{$.tests.split_purchases.counts.by_boundary[2].by_tag.general_procurement.items}} general-procurement groups at {{$.tests.split_purchases.counts.by_boundary[2].boundary|gbp}} and {{$.tests.split_purchases.counts.by_boundary[3].by_tag.general_procurement.items}} at {{$.tests.split_purchases.counts.by_boundary[3].boundary|gbp}} [metric:$.tests.split_purchases.counts.by_boundary[3].groups]",
+        "Largest group to examine: {{$.tests.split_purchases.top20[0].supplier_names}}, {{$.tests.split_purchases.top20[0].n}} payments totalling {{$.tests.split_purchases.top20[0].sum_gbp}} [metric:$.tests.split_purchases.top20[0].sum_gbp]",
+        "Threshold clustering: {{$.tests.threshold_clustering.counts.by_boundary[1].in_band}} payments in the band just under {{$.tests.threshold_clustering.counts.by_boundary[1].boundary|gbp}} against {{$.tests.threshold_clustering.counts.by_boundary[1].comparison}} in the comparison band [metric:$.tests.threshold_clustering.counts.by_boundary[1].in_band]"
+      ],
+      "proposed_focus": "For the general-procurement split-purchase groups, starting with the quote-threshold and App A boundary groups, establish whether the payments relate to one requirement and, if so, whether the quote, notice and approval route matched the aggregated value (clause 6.16). Treat instalments under an existing contract as explained once the contract is seen."
+    },
+    {
+      "risk_id": "R-05",
+      "title": "Repeat payments of the same amount to the same supplier within days",
+      "likelihood": {
+        "score": 3,
+        "justification": "{{$.tests.duplicates.counts.items}} chains of same-supplier, same-amount payments within the test gap were found [metric:$.tests.duplicates.counts.items], {{$.tests.duplicates.by_tag.general_procurement.items}} in general procurement [metric:$.tests.duplicates.by_tag.general_procurement.items]; cleaning also found {{$.tests.duplicates.counts.identical_rows_from_cleaning.rows}} rows identical in all six published columns [metric:$.tests.duplicates.counts.identical_rows_from_cleaning.rows]. Most chains are placements, where weekly rates produce expected repeats; the general-procurement chains remain.",
+        "below_rubric_reason": null,
+        "uplift": null
+      },
+      "impact": {
+        "score": 3,
+        "column": "financial",
+        "financial_figure": "$.tests.duplicates.by_tag.general_procurement.gbp",
+        "justification": "The repeat value in general-procurement chains, {{$.tests.duplicates.by_tag.general_procurement.gbp}} [metric:$.tests.duplicates.by_tag.general_procurement.gbp], is the amount at stake if the repeats were not valid. No CPR rule covers duplicate payment; this is a payment-control indicator. Accounts Payable last received Reasonable Assurance [history:AUD-11]."
+      },
+      "evidence": [
+        "Repeat value across all chains {{$.tests.duplicates.gbp_total}}, of which placements {{$.tests.duplicates.by_tag.placement.gbp}} [metric:$.tests.duplicates.by_tag.placement.gbp]",
+        "General-procurement chains to examine include {{$.tests.duplicates.top20[4].supplier_names}}, {{$.tests.duplicates.top20[4].n}} payments of {{$.tests.duplicates.top20[4].amount_gbp}} [metric:$.tests.duplicates.top20[4].repeat_gbp]"
+      ],
+      "proposed_focus": "Examine the general-procurement chains and the identical published rows against invoices and the accounts payable duplicate check; confirm whether each repeat is a distinct invoice or a recovered or reversed payment."
+    }
+  ],
+  "revision": null
+}

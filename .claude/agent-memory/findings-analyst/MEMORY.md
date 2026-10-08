@@ -1,0 +1,1 @@
+- [Verifier quoting lessons](verifier-quoting-lessons.md) — how quotes/rows are matched; cross-page cells; computing minimal row_window

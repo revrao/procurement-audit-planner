@@ -1,0 +1,1 @@
+- [Citation checking](citation-checking.md) — resolving $.pack / metric paths and running the trace check before sending challenges

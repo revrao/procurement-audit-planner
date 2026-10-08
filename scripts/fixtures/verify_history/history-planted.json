@@ -1,0 +1,661 @@
+{
+ "generated_by": "fixture: history-good.json with planted errors (see test_verify_history.py)",
+ "sources": [
+  {
+   "file": "audit-completed-work-2024-25-annual.pdf",
+   "title": "Internal Audit Plan Update Report, Appendix A (End of March 2025)",
+   "pages": 2
+  },
+  {
+   "file": "audit-completed-work-2025-26-q3.pdf",
+   "title": "Internal Audit Plan Update Report, Appendix A (End of December 2025)",
+   "pages": 2
+  },
+  {
+   "file": "internal-audit-plan-2025-28.pdf",
+   "title": "Internal Audit Plan 2025-2028 (covering report)",
+   "pages": 7
+  },
+  {
+   "file": "risk-management-strategy-2024-27.pdf",
+   "title": "Risk Management Strategy 2024-27",
+   "pages": 35
+  }
+ ],
+ "audits_completed": [
+  {
+   "id": "AUD-01",
+   "source": "audit-completed-work-2024-25-annual.pdf",
+   "pdf_page": 1,
+   "section": "1) COMPLETED AUDITS",
+   "directorate": "Resources",
+   "service": "Finance, Property and Procurement",
+   "audit_title": "Contract Letting",
+   "opinion": "Reasonable Assurance",
+   "quote": [
+    "Finance, Property and Procurement",
+    "Contract Letting audit",
+    "Reasonable Assurance"
+   ],
+   "context_quote": [
+    "Resources"
+   ],
+   "table_row": true
+  },
+  {
+   "id": "AUD-02",
+   "source": "audit-completed-work-2024-25-annual.pdf",
+   "pdf_page": 1,
+   "section": "1) COMPLETED AUDITS",
+   "directorate": "People",
+   "service": "Public Health",
+   "audit_title": "Bank Reconciliation",
+   "opinion": "Substantial Assurance",
+   "quote": [
+    "Public Health",
+    "Bank Reconciliation",
+    "Substantial Assurance"
+   ],
+   "context_quote": [
+    "People"
+   ],
+   "table_row": true
+  },
+  {
+   "id": "AUD-03",
+   "source": "audit-completed-work-2024-25-annual.pdf",
+   "pdf_page": 1,
+   "section": "1) COMPLETED AUDITS",
+   "directorate": "Schools",
+   "service": "Primary",
+   "audit_title": "St Paul’s",
+   "opinion": "Reasonable Assurance",
+   "quote": [
+    "St Paul’s",
+    "Reasonable Assurance"
+   ],
+   "context_quote": [
+    "Schools",
+    "Primary"
+   ],
+   "table_row": true,
+   "risk_score": 6
+  },
+  {
+   "id": "AUD-04",
+   "source": "audit-completed-work-2025-26-q3.pdf",
+   "pdf_page": 1,
+   "section": "1) COMPLETED AUDITS",
+   "directorate": "Resources",
+   "service": "Finance, Property and Procurement",
+   "audit_title": "Accounts Payable",
+   "opinion": "Substantial Assurance",
+   "quote": [
+    "Finance, Property and Procurement",
+    "Accounts Payable",
+    "Reasonable Assurance"
+   ],
+   "context_quote": [
+    "Resources"
+   ],
+   "table_row": true
+  }
+ ],
+ "follow_ups": [
+  {
+   "id": "FU-01",
+   "source": "audit-completed-work-2023-24.pdf",
+   "pdf_page": 2,
+   "section": "2) COMPLETED FOLLOW UPS",
+   "directorate": "Schools",
+   "service": "Primary",
+   "audit_title": "Garland (now Burghfield Common Federation)",
+   "opinion_report": "Weak",
+   "opinion_implementation": "Unsatisfactory",
+   "quote": [
+    "Garland (now Burghfield Common Federation)",
+    "Weak",
+    "Unsatisfactory"
+   ],
+   "context_quote": [
+    "Schools",
+    "Primary"
+   ],
+   "table_row": true
+  }
+ ],
+ "advisory_reviews": [
+  {
+   "id": "ADV-01",
+   "source": "audit-completed-work-2024-25-annual.pdf",
+   "pdf_page": 3,
+   "section": "3) COMPLETED ADVISORY REVIEWS/OTHER WORK",
+   "directorate": "Transformation, Customer and ICT",
+   "review_title": "Transformation SWOT",
+   "quote": [
+    "Transformation, Customer and ICT",
+    "Transformation SWOT"
+   ],
+   "table_row": true
+  }
+ ],
+ "agreed_actions": [],
+ "planned_audits": [],
+ "risk_themes": [],
+ "scoring_method": {
+  "status": "usable",
+  "source": "risk-management-strategy-2024-27.pdf",
+  "likelihood_scale": [
+   {
+    "score": 5,
+    "label": "Certain",
+    "incidents": "Risk will occur within a 12 month period",
+    "probability": "100%",
+    "source": "risk-management-strategy-2024-27.pdf",
+    "pdf_page": 15,
+    "section": "Table 2. Likelihood Ratings",
+    "quote": [
+     "Certain",
+     "Risk will occur within a 12 month period",
+     "100%"
+    ],
+    "table_row": true
+   },
+   {
+    "score": 4,
+    "label": "Almost Certain",
+    "incidents": "Risk is almost certain to occur within a 12 month period",
+    "probability": "70% - 99%",
+    "source": "risk-management-strategy-2024-27.pdf",
+    "pdf_page": 15,
+    "section": "Table 2. Likelihood Ratings",
+    "quote": [
+     "Almost",
+     "Certain",
+     "Risk is almost certain to occur within a 12 month",
+     "period",
+     "70% - 99%"
+    ],
+    "table_row": true
+   },
+   {
+    "score": 3,
+    "label": "Likely",
+    "incidents": "Risk is likely to occur within a 12 month period",
+    "probability": "30% - 69%",
+    "source": "risk-management-strategy-2024-27.pdf",
+    "pdf_page": 14,
+    "section": "Table 2. Likelihood Ratings",
+    "quote": [
+     "Likely",
+     "Risk is likely to occur within a 12 month period",
+     "30% - 69%"
+    ],
+    "table_row": true
+   },
+   {
+    "score": 2,
+    "label": "Unlikely",
+    "incidents": "Risk is unlikely to occur within a 12 month period",
+    "probability": "2% - 29%",
+    "source": "risk-management-strategy-2024-27.pdf",
+    "pdf_page": 15,
+    "section": "Table 2. Likelihood Ratings",
+    "quote": [
+     "Unlikely",
+     "Risk is unlikely to occur within a 12 month period",
+     "2% - 29%"
+    ],
+    "table_row": true
+   },
+   {
+    "score": 1,
+    "label": "Rare",
+    "incidents": "Risk is very rare and highly unlikely to occur within a 12 month period",
+    "probability": "–<2%",
+    "source": "risk-management-strategy-2024-27.pdf",
+    "pdf_page": 15,
+    "section": "Table 2. Likelihood Ratings",
+    "quote": [
+     "Rare",
+     "Risk is very rare and highly unlikely to occur",
+     "within a 12 month period",
+     "–<2%"
+    ],
+    "table_row": true
+   }
+  ],
+  "impact_scale": [
+   {
+    "score": 5,
+    "label": "Critical",
+    "financial": "> 1% annual WBC budget >£2m",
+    "source": "risk-management-strategy-2024-27.pdf",
+    "pdf_page": 14,
+    "section": "Table 1. Impact Ratings",
+    "quote": [
+     "5",
+     "Critical",
+     "> 1% annual",
+     "WBC budget",
+     ">£2m"
+    ],
+    "table_row": true,
+    "row_window": 8
+   },
+   {
+    "score": 4,
+    "label": "Major",
+    "financial": "0.25% - 1% annual WBC budget £500k £2M",
+    "source": "risk-management-strategy-2024-27.pdf",
+    "pdf_page": 14,
+    "section": "Table 1. Impact Ratings",
+    "quote": [
+     "4",
+     "Major",
+     "0.25% - 1%",
+     "annual WBC",
+     "budget",
+     "£500k £2M"
+    ],
+    "table_row": true,
+    "row_window": 8
+   },
+   {
+    "score": 3,
+    "label": "Medium",
+    "financial": "0.1% - 0.3% annual WBC budget £175k -500k",
+    "source": "risk-management-strategy-2024-27.pdf",
+    "pdf_page": 14,
+    "section": "Table 1. Impact Ratings",
+    "quote": [
+     "3",
+     "Medium",
+     "0.1% - 0.3%",
+     "annual WBC",
+     "budget",
+     "£175k -500k"
+    ],
+    "table_row": true,
+    "row_window": 8
+   },
+   {
+    "score": 2,
+    "label": "Minor",
+    "financial": "0.01% - 0.1% of annual WBC budget £17.5k-£175k",
+    "source": "risk-management-strategy-2024-27.pdf",
+    "pdf_page": 14,
+    "section": "Table 1. Impact Ratings",
+    "quote": [
+     "2",
+     "Minor",
+     "0.01% -",
+     "0.1% of",
+     "annual WBC",
+     "budget",
+     "£17.5k -",
+     "£175k"
+    ],
+    "table_row": true,
+    "row_window": 10
+   },
+   {
+    "score": 1,
+    "label": "Negligible",
+    "financial": "Less than 0.01% annual WBC budget £17.5k",
+    "source": "risk-management-strategy-2024-27.pdf",
+    "pdf_page": 14,
+    "section": "Table 1. Impact Ratings",
+    "quote": [
+     "1",
+     "Negligible",
+     "Less than",
+     "0.01%",
+     "annual WBC",
+     "budget",
+     "£17.5k"
+    ],
+    "table_row": true,
+    "row_window": 10
+   }
+  ],
+  "matrix": {
+   "section": "Figure 1. 5x5 Risk Matrix Assessments",
+   "rows": [
+    {
+     "impact": 5,
+     "label": "Critical",
+     "bands": [
+      "Moderate",
+      "High",
+      "Extreme",
+      "Extreme",
+      "Extreme"
+     ],
+     "scores": [
+      5,
+      10,
+      15,
+      20,
+      25
+     ],
+     "source": "risk-management-strategy-2024-27.pdf",
+     "pdf_page": 18,
+     "quote": [
+      "Critical"
+     ],
+     "layout_rows": [
+      [
+       "Moderate",
+       "High",
+       "Extreme",
+       "Extreme",
+       "Extreme"
+      ],
+      [
+       "5",
+       "10",
+       "15",
+       "20",
+       "25"
+      ]
+     ]
+    },
+    {
+     "impact": 4,
+     "label": "Major",
+     "bands": [
+      "Moderate",
+      "High",
+      "Extreme",
+      "High",
+      "Extreme"
+     ],
+     "scores": [
+      4,
+      8,
+      12,
+      16,
+      20
+     ],
+     "source": "risk-management-strategy-2024-27.pdf",
+     "pdf_page": 18,
+     "quote": [
+      "Major"
+     ],
+     "layout_rows": [
+      [
+       "Moderate",
+       "High",
+       "Extreme",
+       "High",
+       "Extreme"
+      ],
+      [
+       "4",
+       "8",
+       "12",
+       "16",
+       "20"
+      ]
+     ]
+    },
+    {
+     "impact": 3,
+     "label": "Medium",
+     "bands": [
+      "Low",
+      "Moderate",
+      "High",
+      "High",
+      "Extreme"
+     ],
+     "scores": [
+      3,
+      6,
+      9,
+      12,
+      15
+     ],
+     "source": "risk-management-strategy-2024-27.pdf",
+     "pdf_page": 18,
+     "quote": [
+      "Medium"
+     ],
+     "layout_rows": [
+      [
+       "Low",
+       "Moderate",
+       "High",
+       "High",
+       "Extreme"
+      ],
+      [
+       "3",
+       "6",
+       "9",
+       "12",
+       "15"
+      ]
+     ]
+    },
+    {
+     "impact": 1,
+     "label": "Negligible",
+     "bands": [
+      "Low",
+      "Low",
+      "Low",
+      "Moderate",
+      "Moderate"
+     ],
+     "scores": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "source": "risk-management-strategy-2024-27.pdf",
+     "pdf_page": 18,
+     "quote": [
+      "Negligible"
+     ],
+     "layout_rows": [
+      [
+       "Low",
+       "Low",
+       "Low",
+       "Moderate",
+       "Moderate"
+      ],
+      [
+       "1",
+       "2",
+       "3",
+       "4",
+       "5"
+      ]
+     ]
+    },
+    {
+     "impact": 2,
+     "label": "Minor",
+     "bands": [
+      "Low",
+      "Moderate",
+      "Moderate",
+      "High",
+      "High"
+     ],
+     "scores": [
+      2,
+      4,
+      6,
+      8,
+      10
+     ],
+     "source": "risk-management-strategy-2024-27.pdf",
+     "pdf_page": 18,
+     "quote": [
+      "Minor"
+     ],
+     "layout_rows": [
+      [
+       "Low",
+       "Moderate",
+       "Moderate",
+       "High",
+       "High"
+      ],
+      [
+       "2",
+       "4",
+       "6",
+       "8",
+       "10"
+      ]
+     ]
+    }
+   ]
+  },
+  "bands": [
+   {
+    "band": "Extreme",
+    "rag": "(Red)",
+    "score_range": "15 -25",
+    "escalation": "Add to Corporate Risk Register and mitigation action.",
+    "response": "Allocate to Executive Director to oversee and Service Director implement agreed actions.",
+    "source": "risk-management-strategy-2024-27.pdf",
+    "pdf_page": 19,
+    "section": "Table 4. RAG Levels, Risk Scores, Escalation and Responses",
+    "quote": [
+     "Extreme",
+     "(Red)",
+     "15 -25",
+     "Add to Corporate",
+     "Risk Register and",
+     "mitigation action.",
+     "Allocate to Executive Director to",
+     "oversee and Service Director",
+     "implement agreed actions."
+    ],
+    "table_row": true
+   },
+   {
+    "band": "Medium - High",
+    "rag": "(Amber)",
+    "score_range": "8-12",
+    "source": "risk-management-strategy-2024-27.pdf",
+    "pdf_page": 19,
+    "section": "Table 4. RAG Levels, Risk Scores, Escalation and Responses",
+    "quote": [
+     "Medium -",
+     "High",
+     "(Amber)",
+     "8-12"
+    ],
+    "table_row": true,
+    "row_window": 4
+   },
+   {
+    "band": "Moderate",
+    "score_range": "4-6",
+    "escalation": "None",
+    "response": "Monitor risk",
+    "source": "risk-management-strategy-2024-27.pdf",
+    "pdf_page": 19,
+    "section": "Table 4. RAG Levels, Risk Scores, Escalation and Responses",
+    "quote": [
+     "Moderate",
+     "4-6",
+     "None",
+     "Monitor risk"
+    ],
+    "table_row": true
+   },
+   {
+    "band": "Low",
+    "rag": "(Green)",
+    "score_range": "Up to 3",
+    "escalation": "None",
+    "response": "Consider at next annual review",
+    "source": "risk-management-strategy-2024-27.pdf",
+    "pdf_page": 19,
+    "section": "Table 4. RAG Levels, Risk Scores, Escalation and Responses",
+    "quote": [
+     "Low",
+     "Up to 3",
+     "None",
+     "Consider at next annual review",
+     "(Green)"
+    ],
+    "table_row": true
+   }
+  ],
+  "escalation": [
+   {
+    "source": "risk-management-strategy-2024-27.pdf",
+    "pdf_page": 21,
+    "section": "6.3",
+    "quote": "Where risk levels are considered to be extreme (Red) on the risk matrix"
+   }
+  ]
+ },
+ "discrepancies": [
+  {
+   "id": "DIS-01",
+   "description": "Paragraph 4.3 gives Medium impact as (2); Table 1 on the same page gives Medium as 3.",
+   "refs": [
+    {
+     "source": "risk-management-strategy-2024-27.pdf",
+     "pdf_page": 14,
+     "section": "4.3",
+     "quote": "Negligible (1), Minor (2), Medium (2), Major (4), or Critical impact(5)"
+    }
+   ]
+  },
+  {
+   "id": "DIS-02",
+   "description": "Table 4 adds only Extreme risks (15-25) to the Corporate Risk Register; Figure 4 says the Corporate Risk Register includes risks that score 9 or above.",
+   "refs": [
+    {
+     "source": "risk-management-strategy-2024-27.pdf",
+     "pdf_page": 19,
+     "section": "Table 4",
+     "quote": [
+      "Extreme",
+      "15 -25",
+      "Add to Corporate",
+      "Risk Register and"
+     ],
+     "table_row": true
+    },
+    {
+     "source": "risk-management-strategy-2024-27.pdf",
+     "pdf_page": 21,
+     "section": "Figure 4. Risk Escalation",
+     "quote": "Score 9 or above",
+     "context_quote": [
+      "Corporate Risk Register (CRR)"
+     ]
+    }
+   ],
+   "resolution": "Table 4 is correct"
+  }
+ ],
+ "gaps": [
+  {
+   "id": "GAP-02",
+   "section": "planned_audits",
+   "what": "The audit programme (Appendix D of the Internal Audit Plan)",
+   "reason": "The file holds only the covering report; Appendix D is not included."
+  },
+  {
+   "id": "GAP-02",
+   "section": "risk_themes",
+   "what": "Risk themes referenced in the audit papers",
+   "reason": "Fixture: none recorded."
+  }
+ ]
+}

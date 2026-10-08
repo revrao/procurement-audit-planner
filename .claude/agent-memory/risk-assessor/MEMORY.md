@@ -1,0 +1,1 @@
+- [Builder rubric and path recipes](builder_rubric_paths.md) — how cited metric paths set the rubric level; useful analytics paths

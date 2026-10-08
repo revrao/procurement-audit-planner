@@ -1,0 +1,376 @@
+{
+  "planner": "planner",
+  "register_revision": 1,
+  "memo": {
+    "objective": "Test whether the council's controls over quote thresholds, requirement aggregation and payment checks operate as the Contract Procedure Rules require, using the spend analytics to target the sample [rule:CPR-13].",
+    "background": "The spend-analytics tests flagged {{$.tests.split_purchases.counts.items}} split-purchase groups [metric:$.tests.split_purchases.counts.items] and {{$.tests.duplicates.counts.items}} same-amount payment chains [metric:$.tests.duplicates.counts.items] in the spend window. These are risk indicators to investigate, not findings.",
+    "approach": "The auditor approved {{$.pack.scope.in_scope}} risks. Each test draws a targeted sample from the flagged lists; {{$.pack.totals.sampled_items}} items covering {{$.pack.totals.sampled_transactions}} transactions are to be examined.",
+    "limitations": "The data covers one spend window of published payments over the publication limit; instalments under an existing contract can produce expected split-purchase groups [metric:$.tests.split_purchases.caveats]."
+  },
+  "risks": [
+    {
+      "risk_id": "R-01",
+      "controls": [
+        {
+          "control_id": "C-01",
+          "control": "Requirements are aggregated before the procurement route is chosen, and are not divided to stay under a quote or approval boundary [rule:CPR-13]."
+        },
+        {
+          "control_id": "C-02",
+          "control": "Purchases in the App B quote bands follow the quote and notice route for their aggregated value [rule:CPR-50] [rule:CPR-51] [rule:CPR-52], with App A approvals at the higher boundaries [rule:CPR-48]."
+        }
+      ],
+      "tests": [
+        {
+          "test_id": "T-01",
+          "controls": [
+            "C-01",
+            "C-02"
+          ],
+          "step": "For each sampled split-purchase group, establish from the purchase orders and invoices whether the payments relate to one requirement; if so, check the quote, notice and approval route matched the aggregated value [rule:CPR-13] [metric:$.tests.split_purchases.by_tag.general_procurement.items].",
+          "sample": {
+            "file": "split_purchases.csv",
+            "filter": [
+              {
+                "column": "tag",
+                "op": "==",
+                "value": "general_procurement"
+              },
+              {
+                "column": "boundary",
+                "op": "==",
+                "value": "{{$.rules_used.quote_threshold.value}}"
+              }
+            ],
+            "sort": [
+              {
+                "column": "sum_gbp",
+                "order": "desc"
+              }
+            ],
+            "method": "top",
+            "size": null,
+            "rationale": "The largest general-procurement groups that cross the quote threshold [metric:$.tests.split_purchases.counts.by_boundary[1].by_tag.general_procurement.items]."
+          },
+          "pbc": [
+            "Purchase orders and invoices for the sampled payments",
+            "Quotation records and Procurement Portal invitations for the sampled requirements"
+          ]
+        },
+        {
+          "test_id": "T-02",
+          "controls": [
+            "C-02"
+          ],
+          "step": "For sampled payments just under a quote boundary, obtain the quote evidence and confirm the value was not set to avoid the band above [rule:CPR-50] [metric:$.tests.threshold_clustering.by_tag.general_procurement.items].",
+          "sample": {
+            "file": "threshold_clustering.csv",
+            "filter": [
+              {
+                "column": "tag",
+                "op": "==",
+                "value": "general_procurement"
+              }
+            ],
+            "sort": [
+              {
+                "column": "date",
+                "order": "asc"
+              }
+            ],
+            "method": "systematic",
+            "size": null,
+            "rationale": "Spread across the window rather than the largest only, since the comparison band shows no excess clustering [metric:$.tests.threshold_clustering.counts.by_boundary[1].ratio_band_to_comparison]."
+          },
+          "pbc": [
+            "Purchase orders and invoices for the sampled payments",
+            "Quote evidence for each sampled payment"
+          ]
+        }
+      ]
+    },
+    {
+      "risk_id": "R-05",
+      "controls": [
+        {
+          "control_id": "C-03",
+          "control": "Every payment is supported by written evidence of the purchase, so a repeat payment can be matched to a distinct invoice [rule:CPR-32]."
+        }
+      ],
+      "tests": [
+        {
+          "test_id": "T-03",
+          "controls": [
+            "C-03"
+          ],
+          "step": "For each sampled chain, match every payment to a distinct invoice, or to a recovery or reversal, and review the accounts payable duplicate check [rule:CPR-32] [metric:$.tests.duplicates.by_tag.general_procurement.items].",
+          "sample": {
+            "file": "duplicates.csv",
+            "filter": [
+              {
+                "column": "tag",
+                "op": "==",
+                "value": "general_procurement"
+              }
+            ],
+            "sort": [
+              {
+                "column": "repeat_gbp",
+                "order": "desc"
+              }
+            ],
+            "method": "top",
+            "size": null,
+            "rationale": "The general-procurement chains with the largest repeat value [metric:$.tests.duplicates.by_tag.general_procurement.gbp]."
+          },
+          "pbc": [
+            "Invoices for the sampled payments",
+            "Accounts payable duplicate-payment report for the spend window"
+          ]
+        }
+      ]
+    }
+  ],
+  "rules_not_tested": [
+    {
+      "rule_id": "CPR-01",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-02",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-03",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-04",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-05",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-06",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-07",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-08",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-09",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-10",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-11",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-12",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-14",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-15",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-16",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-17",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-18",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-19",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-20",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-21",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-22",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-23",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-24",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-25",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-26",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-27",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-28",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-29",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-30",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-31",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-33",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-34",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-35",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-36",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-37",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-38",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-39",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-40",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-41",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-42",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-43",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-44",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-45",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-46",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-47",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-49",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-53",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-54",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-55",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-56",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-57",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-58",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-59",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-60",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-61",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-62",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-63",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-64",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-65",
+      "reason": "Outside the two fixture risks."
+    },
+    {
+      "rule_id": "CPR-66",
+      "reason": "Outside the two fixture risks."
+    }
+  ]
+}
