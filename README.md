@@ -7,6 +7,10 @@ spend population against them, adds in past internal-audit history, rates the
 risks on the council's own scoring scale, and produces a cross-checked audit
 planning pack. A human auditor approves it at two gates.
 
+This repository is our team's Part A implementation for the Skills, Agents &
+Deployment assignment. It follows the reference guide at
+<https://procurement-audit-planner.vercel.app/>.
+
 The full design specification is in [`CLAUDE.md`](CLAUDE.md).
 
 ## What it does
@@ -240,8 +244,9 @@ Useful checks you can run directly:
 
 ## Completion statement
 
-I completed the steps in the provided guide through final auditor sign-off.
-The repository records each step:
+We completed the steps in the
+[reference guide](https://procurement-audit-planner.vercel.app/) through final
+auditor sign-off. The repository records each step:
 
 | Step | Evidence |
 | --- | --- |
@@ -253,3 +258,10 @@ The repository records each step:
 | Agent team run | Pack v3 in `outputs/`; challenges closed in `outputs/challenges.md` |
 | QA | `outputs/review.md`: quotes, numbers, trace and samples all PASS; verdict **READY FOR SIGN-OFF** |
 | Final sign-off (gate 2) | `outputs/review.md`: decision *sign off*, Revanth Rao, 2026-10-08. Challenge #6 was reviewed and R-06 left unchanged |
+
+**Why the register is at revision 1, not revision 2 as in the guide.** In the
+guide's example, the first gate review records only some decisions and leaves
+the rest blank. Those are completed in a later step, which produces revision 2.
+Here, decisions for all six risks were recorded in the first gate review
+instead, so a single revision applied them all, and the register ended at
+revision 1. That is why the revision number differs from the guide's example.

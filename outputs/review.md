@@ -6,7 +6,7 @@ Checked by: qa-reviewer with `scripts/checks/run_checks.py`
 ## Results
 
 ```text
-QA checks on /Users/revanthrao/Desktop/procurement-audit-planner/outputs: pack built: 2026-10-08 21:31 UTC; audit-plan.json sha256: 5773fc3c74f2f7f5…
+QA checks on outputs: pack built: 2026-10-08 21:31 UTC; audit-plan.json sha256: 5773fc3c74f2f7f5…
 
 | Check | Result | Checked | Failures | What it checks |
 | --- | --- | --- | --- | --- |
