@@ -15,7 +15,7 @@ import { loadManifest, openSandbox, requireAnthropicKey, runClaude, sh, type Log
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
-export const maxDuration = 800;
+export const maxDuration = 300; // Hobby plan maximum
 
 type Result = { pass: boolean; [k: string]: unknown };
 const TEAM_LIVE_DEADLINE_MS = 42 * 60 * 1000;
