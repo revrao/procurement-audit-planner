@@ -12,8 +12,11 @@ const READ_IDLE_MS = 1_500;
 /** True if any run is pending or running, has not failed a stage, and is not abandoned. */
 export async function hasActiveRun(): Promise<boolean> {
   const world = await getWorld();
-  const live = await world.runs.list({ status: ["pending", "running"], resolveData: "none", pagination: { limit: 20 } });
-  for (const r of live.data) if (await blocks(r.runId)) return true;
+  // world-vercel rejects an array of statuses, so list each status on its own.
+  for (const status of ["pending", "running"] as const) {
+    const live = await world.runs.list({ status, resolveData: "none", pagination: { limit: 20 } });
+    for (const r of live.data) if (await blocks(r.runId)) return true;
+  }
   return false;
 }
 
